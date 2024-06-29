@@ -41,9 +41,13 @@ class Book:
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"Book path:{self.output_path}")
         
+        # Writes a NISC item folder and ocr folder but
+        # no XML
+        self.nisc_data.write_metadata(output_path=self.output_path)
         
-        
-        
+        for item_key, item, in self.items.items():
+            item.write_metadata(output_path=self.output_path)
+
     """
     """
     def update(self, app_index, row):
@@ -62,12 +66,12 @@ class Book:
             # Create either a new NISC instance for this Book or
             # A new Item for the items list 
             if self.is_nisc:
-                self.nisc_data = NISC(app_index=app_index, book_index=self.book_index, item_name=self.current_item_name)
+                self.nisc_data = NISC(app_index=app_index, book_index=self.book_index, name=self.current_item_name)
                 self.nisc_data.update(app_index=app_index, book_index=self.book_index, row=row)
                 
                 self.book_index = self.book_index + 1
             else:
-                self.current_item = Item(app_index=app_index, book_index=self.book_index, item_name=self.current_item_name)
+                self.current_item = Item(app_index=app_index, book_index=self.book_index, name=self.current_item_name, nisc_data=self.nisc_data)
                 self.items[self.current_item_name] = self.current_item
                 self.current_item.update(app_index, self.book_index, row)
                 

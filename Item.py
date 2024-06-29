@@ -6,20 +6,28 @@
     Items in a Book "share" NISC data. This means that when an Item's XML file is written, 
     the same NISC data is copied in at the start of each XML file within a Book.
 
-    >>>>>>>>>>>>>>>>> Give each Item in a Book a pointer to its shared NISC data
-
 """
 from pathlib import Path
 
 class Item:
-    def __init__(self, app_index, book_index, item_name):
+    def __init__(self, app_index, book_index, name, nisc_data):
         
-        self.item_name = item_name
+        self.name = name
         self.rows = dict()
+        self.output_path = None
         
-        print(f"\tNew Item: book_index {book_index} {self.item_name}")
+        # A pointer to the NISC data shared by all Items in this Book
+        self.nisc_data = nisc_data
+        
+        print(f"\tNew Item: book_index {book_index} {self.name} nisc_data:{self.nisc_data}")
     
+    """
+    """     
+    def write_metadata(self, output_path):
+        self.output_path = Path(f"{output_path}/{self.name}")
+        print(f"\tItem path:{self.output_path}")      
     
+
     """
     """   
     def update(self, app_index, book_index, row):

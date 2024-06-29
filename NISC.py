@@ -21,13 +21,24 @@ from pathlib import Path
 # Call update at end of init
 # Like wise for Book - we are missing the first row because the Book init is eating it
 class NISC:
-    def __init__(self, app_index, book_index, item_name):
+    def __init__(self, app_index, book_index, name):
         
-        self.item_name = item_name
+        self.name = name
         self.first_part = dict()  
         self.second_part = dict()
         
-        print(f"\tNew NISC item: book_index {book_index} {self.item_name}")
+        self.output_path = None   
+            
+        print(f"\tNew NISC item: book_index {book_index} {self.name}")
+        
+    """
+        No XML written, but NISC item folder and empty ocr folder created
+    """     
+    def write_metadata(self, output_path):       
+        self.output_path = Path(f"{output_path}/{self.name}")
+        print(f"\tNISC path:{self.output_path}")  
+        
+        
         
     """
     """       
