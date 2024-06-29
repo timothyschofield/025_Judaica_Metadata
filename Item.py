@@ -8,21 +8,25 @@
 
     >>>>>>>>>>>>>>>>> Give each Item in a Book a pointer to its shared NISC data
 
-
-
 """
 from pathlib import Path
 
 class Item:
-    def __init__(self, app_index, item_name):
+    def __init__(self, app_index, book_index, item_name):
+        
         self.item_name = item_name
         self.rows = dict()
         
-        print(f"\tNew Item: {self.item_name}")
+        print(f"\tNew Item: book_index {book_index} {self.item_name}")
     
-    def update(self, app_index, row):
+    
+    """
+    """   
+    def update(self, app_index, book_index, row):
 
         image_name = Path(row["Image name"]).stem
-        print(f"\t\t{image_name}")
+        self.rows[image_name] = (book_index, row)
+        #print(f"\t\tbook_index {book_index} {image_name}")
         
-        self.rows[image_name] = row
+        
+        

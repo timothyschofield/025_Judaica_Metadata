@@ -21,16 +21,17 @@ from pathlib import Path
 # Call update at end of init
 # Like wise for Book - we are missing the first row because the Book init is eating it
 class NISC:
-    def __init__(self, app_index, item_name):
+    def __init__(self, app_index, book_index, item_name):
+        
         self.item_name = item_name
-
         self.first_part = dict()  
         self.second_part = dict()
         
-        print(f"\tNew NISC item: {self.item_name}")
-        #print(f"\t\t{self.image_name}")
+        print(f"\tNew NISC item: book_index {book_index} {self.item_name}")
         
-    def update(self, app_index, row):
+    """
+    """       
+    def update(self, app_index, book_index,  row):
 
         image_name = Path(row["Image name"]).stem
         
@@ -39,13 +40,12 @@ class NISC:
         end_bit = image_name.split("-")[-1]
         if "0000" in end_bit:
             # first_part
-            print(f"\t\t{image_name} part 1")
-            self.first_part[image_name] = row
+            self.first_part[image_name] = (book_index, row)
+            # print(f"\t\tbook_index {book_index} {image_name} part 1")
         else:
             # second_part
-            print(f"\t\t{image_name} part 2")
-            self.second_part[image_name] = row
-
+            self.second_part[image_name] = (book_index, row)
+            # print(f"\t\tbook_index {book_index} {image_name} part 2")       
         
         
     

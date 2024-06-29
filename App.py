@@ -27,6 +27,17 @@ class App:
         for app_index, row in self.df_metadata.iloc[0:].iterrows(): 
             self.update(app_index, row)
 
+        print("##### WRITING METADATA #####")
+        self.write_metadata()
+
+    """
+    """    
+    def write_metadata(self):
+        print(f"Num books:{len(self.books)}")
+        
+        for book_key, book, in self.books.items():
+            book.write_metadata(output_path=self.output_path)
+            
     """
     """        
     def update(self, app_index, row):        
@@ -37,11 +48,11 @@ class App:
             self.old_book_name = self.current_book_name
             self.current_book_name = this_book_name
             
-            self.current_book = Book(app_index, row, self.current_book_name)
+            self.current_book = Book(app_index=app_index, row=row, name=self.current_book_name)
             self.books[self.current_book_name] = self.current_book
-            self.current_book.update(app_index, row)
+            self.current_book.update(app_index=app_index, row=row)
         else:
-            self.current_book.update(app_index, row)
+            self.current_book.update(app_index=app_index, row=row)
             
 
     """
