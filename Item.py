@@ -25,8 +25,18 @@ class Item:
     """     
     def write_metadata(self, output_path):
         self.output_path = Path(f"{output_path}/{self.name}")
-        print(f"\tItem path:{self.output_path}")      
-    
+        print(f"\tItem path:{self.output_path}")     
+         
+        self.output_path.mkdir(parents = True, exist_ok = True)
+        
+        ocr_path = Path(f"{self.output_path}/ocr")
+        ocr_path.mkdir(parents = True, exist_ok = True)
+
+        metadata_file = Path(f"{self.output_path}/{self.name}.xml")
+        metadata_file_data = "No data"
+        
+        with open(metadata_file, 'a') as the_file:
+            the_file.write(metadata_file_data)
 
     """
     """   

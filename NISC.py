@@ -1,7 +1,7 @@
 """
     NISC.py
 
-    NISC material is non-Item information andacts as a header for a Book
+    NISC material is non-Item information and acts as a header for a Book
     It containes info on Back board, Front board, Spine etc.
     It is of variable length
     
@@ -14,6 +14,9 @@
     
     Items in a Book "share" NISC data. This means that when an Item's XML file is written, the same NISC data is
     copied in at the start of each XML file within a Book.
+    
+    Same NISC data - exept the numbering in the <order> and <imagenumber> will vary between Items in Book
+    
     
 """
 from pathlib import Path
@@ -38,7 +41,10 @@ class NISC:
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"\tNISC path:{self.output_path}")  
         
+        self.output_path.mkdir(parents = True, exist_ok = True)       
         
+        ocr_path = Path(f"{self.output_path}/ocr")
+        ocr_path.mkdir(parents = True, exist_ok = True)
         
     """
     """       

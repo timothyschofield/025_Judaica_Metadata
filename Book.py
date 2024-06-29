@@ -41,8 +41,7 @@ class Book:
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"Book path:{self.output_path}")
         
-        # Writes a NISC item folder and ocr folder but
-        # no XML
+        # Writes a NISC item folder and ocr folder but no XML written
         self.nisc_data.write_metadata(output_path=self.output_path)
         
         for item_key, item, in self.items.items():
