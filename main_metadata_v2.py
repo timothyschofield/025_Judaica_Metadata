@@ -57,7 +57,6 @@ output_folder = Path(f"metadata_output")
 output_file = Path(f"judaica_xml_{get_file_timestamp()}")
 output_path = Path(f"{output_folder}/{output_file}")
 
-
 if os.path.exists(input_path) != True:
     print(f"ERROR: {input_path} file does not exits")
     exit()

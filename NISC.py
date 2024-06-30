@@ -64,5 +64,38 @@ class NISC:
             self.second_part[image_name] = (book_index, row)
             # print(f"\t\tbook_index {book_index} {image_name} part 2")       
         
+            """
+    """ 
+    def create_xml(self):
+    
+        ret_data = f""
+        image_number = 1
+        order = 0
+        for image_name, (book_index, row), in self.first_part.items():
         
+            colour = row["Colour"]
+            page_type = row["Page Type"]
+            
+            ret_data =  (   f"{ret_data}"
+                            f"<itemimage>\n"
+                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>\n"
+                            f"</itemimage>\n"
+                        )
+            image_number = image_number + 1
+
+        order = 1
+        for image_name, (book_index, row), in self.second_part.items():
+            
+            colour = row["Colour"]
+            page_type = row["Page Type"]
+            
+            ret_data =  (   f"{ret_data}"
+                            f"<itemimage>\n"
+                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>\n"
+                            f"</itemimage>\n"
+                        )
+            image_number = image_number + 1
+            order = order + 1
+
+        return ret_data
     
