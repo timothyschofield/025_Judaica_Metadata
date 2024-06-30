@@ -15,6 +15,7 @@ class Item:
         self.name = name
         self.rows = dict()
         self.output_path = None
+        self.metadata = None
         
         # A pointer to the NISC data shared by all Items in this Book
         self.nisc_data = nisc_data
@@ -23,7 +24,7 @@ class Item:
     
     """
     """     
-    def write_metadata(self, output_path):
+    def write_xml(self, output_path):
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"\tItem path:{self.output_path}")     
          
@@ -33,11 +34,20 @@ class Item:
         ocr_path.mkdir(parents = True, exist_ok = True)
 
         metadata_file = Path(f"{self.output_path}/{self.name}.xml")
-        metadata_file_data = "No data"
+        
+        xml_data = self.create_xml()
         
         with open(metadata_file, 'a') as the_file:
-            the_file.write(metadata_file_data)
+            the_file.write(xml_data)
 
+    """
+    """   
+    def create_xml(self):
+        
+        ret_data = "No data"
+        return ret_data
+    
+    
     """
     """   
     def update(self, app_index, book_index, row):

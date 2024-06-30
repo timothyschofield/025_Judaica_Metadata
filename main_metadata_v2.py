@@ -50,9 +50,13 @@ input_folder = Path(f"metadata_input")
 input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - BENCHMARK.csv")
 input_path = Path(f"{input_folder}/{input_file}")
 
+re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - Benchmark.csv")
+re_search_input_path = Path(f"{input_folder}/{re_search_input_file}")
+
 output_folder = Path(f"metadata_output")
 output_file = Path(f"judaica_xml_{get_file_timestamp()}")
 output_path = Path(f"{output_folder}/{output_file}")
+
 
 if os.path.exists(input_path) != True:
     print(f"ERROR: {input_path} file does not exits")
@@ -60,9 +64,18 @@ if os.path.exists(input_path) != True:
 else:
     print(f"READING: {input_path}")       
 
+if os.path.exists(re_search_input_path) != True:
+    print(f"ERROR: {re_search_input_path} file does not exits")
+    exit()
+else:
+    print(f"READING: {re_search_input_path}") 
+
 df_metadata = pd.read_csv(input_path)
 
-app1 = App(df_metadata=df_metadata, output_path=output_path)
+df_rec_search = pd.read_csv(re_search_input_path)
+df_rec_search.set_index("Item name", inplace=True)
+
+app1 = App(df_metadata=df_metadata, df_rec_search=df_rec_search, output_path=output_path)
 
 
 

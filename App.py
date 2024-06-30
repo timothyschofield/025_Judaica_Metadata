@@ -12,9 +12,14 @@ from helper_functions_judaica import get_file_timestamp
 from Book import Book
 
 class App:
-    def __init__(self, df_metadata, output_path):
+    def __init__(self, df_metadata, df_rec_search, output_path):
         
         self.df_metadata = df_metadata
+        
+        # This data should be got into the Item at scan time - not write time
+        # Also an Item has to have access to the metadata of other Item's in it's book to get the link title and link id info
+        self.df_rec_search = df_rec_search 
+        
         self.output_path = output_path
         
         self.old_book_name = None
@@ -27,16 +32,16 @@ class App:
         for app_index, row in self.df_metadata.iloc[0:].iterrows(): 
             self.update(app_index, row)
 
-        print("##### WRITING METADATA #####")
-        self.write_metadata()
+        print("##### WRITING XML #####")
+        self.write_xml()
 
     """
     """    
-    def write_metadata(self):
+    def write_xml(self):
         print(f"Num books:{len(self.books)}")
         
         for book_key, book, in self.books.items():
-            book.write_metadata(output_path=self.output_path)
+            book.write_xml(output_path=self.output_path)
             
     """
     """        

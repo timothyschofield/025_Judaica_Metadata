@@ -36,16 +36,16 @@ class Book:
         
     """
     """       
-    def write_metadata(self, output_path):
+    def write_xml(self, output_path):
         
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"Book path:{self.output_path}")
         
         # Writes a NISC item folder and ocr folder but no XML written
-        self.nisc_data.write_metadata(output_path=self.output_path)
+        self.nisc_data.write_folders(output_path=self.output_path)
         
         for item_key, item, in self.items.items():
-            item.write_metadata(output_path=self.output_path)
+            item.write_xml(output_path=self.output_path)
 
     """
     """
@@ -67,14 +67,12 @@ class Book:
             if self.is_nisc:
                 self.nisc_data = NISC(app_index=app_index, book_index=self.book_index, name=self.current_item_name)
                 self.nisc_data.update(app_index=app_index, book_index=self.book_index, row=row)
-                
-                self.book_index = self.book_index + 1
             else:
                 self.current_item = Item(app_index=app_index, book_index=self.book_index, name=self.current_item_name, nisc_data=self.nisc_data)
                 self.items[self.current_item_name] = self.current_item
                 self.current_item.update(app_index, self.book_index, row)
                 
-                self.book_index = self.book_index + 1
+            self.book_index = self.book_index + 1
         else:
             if self.is_nisc:  
                 self.nisc_data.update(app_index=app_index, book_index=self.book_index, row=row)

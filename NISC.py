@@ -35,9 +35,9 @@ class NISC:
         print(f"\tNew NISC item: book_index {book_index} {self.name}")
         
     """
-        No XML written, but NISC item folder and empty ocr folder created
+        Writes a NISC item folder and ocr folder but no XML written
     """     
-    def write_metadata(self, output_path):       
+    def write_folders(self, output_path):       
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"\tNISC path:{self.output_path}")  
         
