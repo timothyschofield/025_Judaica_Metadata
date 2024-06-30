@@ -30,7 +30,6 @@ class Item:
         ret_data = f""
         ret_data = f"{ret_data}{self.nisc_data.create_xml()}"
         
-        
         for image_name, (book_index, row), in self.rows.items():
             
             order = 0
@@ -44,8 +43,6 @@ class Item:
                           
             # This is the basic line - all tabs included even if value "None"
             this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>1{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>"
-            
-            
             
             #######################
             # elements below here are not included in the output if they have no value
