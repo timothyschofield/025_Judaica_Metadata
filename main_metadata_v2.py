@@ -4,7 +4,7 @@
     Date: 27 June 2024   
     
     This uses a double scan - first we collect the data from the input speadsheet and in a hierachical data structure of Books, Items and NISCs.
-    Once we have the structured data we can go through it and write out the metadata xml in a sensible fashion.
+    Once we have the structured data we can go through it and write out the metadata xml in a sane fashion.
 
     This is specificaly required to address the problem of linked data, where items in a book/volume need to know about one another's existance.
     A single scan is no good for this, because the earlyer items in a book/volume do not know about later items because the data has not been collected yet.
@@ -53,9 +53,7 @@ input_path = Path(f"{input_folder}/{input_file}")
 re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - Benchmark.csv")
 re_search_input_path = Path(f"{input_folder}/{re_search_input_file}")
 
-output_folder = Path(f"metadata_output")
-output_file = Path(f"judaica_xml_{get_file_timestamp()}")
-output_path = Path(f"{output_folder}/{output_file}")
+output_path = Path(f"metadata_output/judaica_xml_{get_file_timestamp()}")
 
 if os.path.exists(input_path) != True:
     print(f"ERROR: {input_path} file does not exits")
