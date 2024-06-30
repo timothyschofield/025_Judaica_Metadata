@@ -30,10 +30,17 @@ class Item:
         ret_data = f""
         ret_data = f"{ret_data}{self.nisc_data.create_xml()}"
         
-        for image_name, (book_index, row), in self.rows.items():
+        len_first_part = len(self.nisc_data.first_part)
+        len_second_part = len(self.nisc_data.second_part)
+    
+        # always counts on from order in the NISC
+        order = len_second_part + 1
+        
+        # This depend on whether image_number resets with each new item in a book or just counts on through the book
+        # In which case use book_index
+        image_number =  len_first_part + len_second_part + 1
             
-            order = 0
-            image_number = 0
+        for image_name, (book_index, row), in self.rows.items():
             
             colour = row["Colour"]
             if type(colour) != str: colour = "None"
@@ -42,7 +49,7 @@ class Item:
             if type(page_type) != str: page_type = "None"     
                           
             # This is the basic line - all tabs included even if value "None"
-            this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>1{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>"
+            this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>"
             
             #######################
             # elements below here are not included in the output if they have no value
@@ -83,7 +90,8 @@ class Item:
             # Wrap ithe line in tags for the image line
             ret_data = f"{ret_data}<itemimage>\n\t{this_line}\n</itemimage>\n" 
             
-            
+            order = order + 1
+            image_number = image_number + 1
         return ret_data
   
     
