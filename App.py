@@ -15,9 +15,6 @@ class App:
     def __init__(self, df_metadata, df_rec_search, output_path):
         
         self.df_metadata = df_metadata
-        
-        # This data should be got into the Item at scan time - not write time
-        # Also an Item has to have access to the metadata of other Item's in it's book to get the link title and link id info
         self.df_rec_search = df_rec_search 
         
         self.output_path = output_path
@@ -38,8 +35,6 @@ class App:
     """
     """    
     def write_xml(self):
-        print(f"Num books:{len(self.books)}")
-        
         for book_key, book, in self.books.items():
             book.write_xml(output_path=self.output_path)
             
@@ -53,7 +48,7 @@ class App:
             self.old_book_name = self.current_book_name
             self.current_book_name = this_book_name
             
-            self.current_book = Book(app_index=app_index, row=row, name=self.current_book_name)
+            self.current_book = Book(app_index=app_index, row=row, name=self.current_book_name, df_rec_search=self.df_rec_search)
             self.books[self.current_book_name] = self.current_book
             self.current_book.update(app_index=app_index, row=row)
         else:
