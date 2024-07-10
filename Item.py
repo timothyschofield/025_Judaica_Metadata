@@ -9,6 +9,8 @@
 """
 from pathlib import Path
 import math
+from helper_functions_judaica import validate_xml, decimal_encode_for_xml, log_message
+
 
 class Item:
     def __init__(self, app_index, book_index, name, nisc_data, df_rec_search):
@@ -47,6 +49,7 @@ class Item:
         
         # This depend on whether image_number resets with each new Item or just counts on through Items in a Book
         # In which case use book_index
+        # Jessica says the image_number resetting for every item is the correct way
         image_number =  len_first_part + len_second_part + 1
         
         for image_name, (book_index, row), in self.rows.items():
@@ -115,9 +118,10 @@ class Item:
     def create_rec_search_xml(self):
         
         this_line = self.df_rec_search.loc[self.name]
-    
         pqid = this_line["<pqid>"]
-        title = this_line["<title>"]
+        
+        title = decimal_encode_for_xml(this_line["<title>"])
+        
         author_main = this_line["<author_main>"]
         author_corrected = author_main
         author_uninverted = author_main
@@ -160,7 +164,7 @@ class Item:
             link_tag = f"<linksec>\n"
             # Annoying thing with single tuple/link
             if type(links_list[0]) == str:
-                this_link_title = links_list[0]
+                this_link_title = decimal_encode_for_xml(links_list[0])
                 this_link_id = links_list[1]
                 link_tag = f"{link_tag}\t<link>\n\t\t<linktitle>{this_link_title}</linktitle>\n"
                 link_tag = f"{link_tag}\t\t<linkid>{this_link_id}</linkid>\n\t</link>\n"
@@ -202,6 +206,7 @@ class Item:
     
     """
     """    
+    
         
     def write_xml(self, output_path):
         self.output_path = Path(f"{output_path}/{self.name}")
@@ -215,6 +220,10 @@ class Item:
         metadata_file = Path(f"{self.output_path}/{self.name}.xml")
         
         xml_data = self._create_xml()
+        
+        is_valid, message = validate_xml(xml_data)
+        if is_valid == False:
+            log_message(f"{metadata_file} - {message}")
         
         with open(metadata_file, 'a') as the_file:
             the_file.write(xml_data)

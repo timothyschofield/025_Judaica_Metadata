@@ -1,4 +1,26 @@
+import os
 
+def log_message(message):
+    print(message)
+    
+    error_log_dir = Path(f"error_logs")
+    error_log_dir.mkdir(parents = True, exist_ok = True)
+    error_log_path = Path(f"{error_log_dir}/error_log.txt")
+    
+    # flag "a" is open to append file
+    with open(error_log_path, "a") as f:
+        f.write(f"{get_file_timestamp()}: {message}\n")
+
+import html
+# You do not pass XML in here, just data you want to be carried in XML
+def decimal_encode_for_xml(data_in):
+  html_escaped = html.escape(data_in) # this will turn & into &amp;
+
+  binary_encoded = html_escaped.encode('ascii', 'xmlcharrefreplace') # this turns ü into &#252;
+
+  non_binary = binary_encoded.decode("utf-8") # Gets rid of the leading 'b'
+  
+  return non_binary
 
 import xml.etree.ElementTree as ET
 def validate_xml(xml_text):

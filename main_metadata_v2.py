@@ -7,9 +7,9 @@
     Once we have the structured data we can go through it and write out the metadata xml in a sane fashion.
 
     This is specificaly required to address the problem of linked data, where items in a book/volume need to know about one another's existance.
-    A single scan is no good for this, because the earlyer items in a book/volume do not know about later items because the data has not been collected yet.
+    A single scan is no good for this, because the earlyer items in a book/volume can not know about later items because the data has not yet been collected.
 
-    OOPs approch required
+    OOPs approach required
 
     Required file hierachy
 
