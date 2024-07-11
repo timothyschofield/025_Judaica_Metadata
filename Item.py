@@ -120,20 +120,12 @@ class Item:
     """
     def create_rec_search_xml(self):
         
-        # For the link section
-        # Collect all the titles of the other Items in this Item's Book
-        other_items_in_this_book = dict()
-        for item_name, item, in self.my_book.items.items():
-            
-            print(f"Item name: {item_name}")
-        
-        
         this_line = self.df_rec_search.loc[self.name]
         pqid = this_line["<pqid>"]
         
         title = decimal_encode_for_xml(this_line["<title>"])
         
-        author_main = this_line["<author_main>"]
+        author_main = this_line["<author_name>"]
         author_corrected = author_main
         author_uninverted = author_main
            
@@ -168,27 +160,20 @@ class Item:
             illustrations_tag = f"{illustrations_tag}</illustrations>\n"   
     
         link_tag = f""
-        links = this_line["<link>"]
-        if type(links) == str:
-            links_list = list(eval(links))
-            
+        if len(self.my_book.items) > 1: # If there are other Items in this Book
             link_tag = f"<linksec>\n"
-            # Annoying thing with single tuple/link
-            if type(links_list[0]) == str:
-                this_link_title = decimal_encode_for_xml(links_list[0])
-                this_link_id = links_list[1]
-                link_tag = f"{link_tag}\t<link>\n\t\t<linktitle>{this_link_title}</linktitle>\n"
-                link_tag = f"{link_tag}\t\t<linkid>{this_link_id}</linkid>\n\t</link>\n"
-            else:
-                # For multiple tuples/links
-                for this_link in links_list:
-                    this_link_title = this_link[0]
-                    this_link_id = this_link[1] 
-                    link_tag = f"{link_tag}\t<link>\n\t\t<linktitle>{this_link_title}</linktitle>\n"
-                    link_tag = f"{link_tag}\t\t<linkid>{this_link_id}</linkid>\n\t</link>\n"       
             
-            link_tag = f"{link_tag}</linksec>\n"   
-    
+            for item_name, item, in self.my_book.items.items():
+                if item_name != self.name:
+                    other_item_line = self.df_rec_search.loc[item_name]
+                    this_link_id = item_name
+                    this_link_title = decimal_encode_for_xml(other_item_line["<title>"])
+                    
+                    link_tag = f"{link_tag}\t<link>\n\t\t<linktitle>{this_link_title}</linktitle>\n"
+                    link_tag = f"{link_tag}\t\t<linkid>{this_link_id}</linkid>\n\t</link>\n"
+       
+            link_tag = f"{link_tag}</linksec>\n" 
+            
     
         rec_search = (   f"\n\n<rec_search>\n<pqid>{pqid}</pqid>\n"
                         f"<title>{title}</title>\n"
