@@ -20,6 +20,7 @@ class Book:
         self.name = name
         self.df_rec_search = df_rec_search # All <rec_search> metadata
         
+        
         self.old_item_name = None
         self.current_item_name = None
         self.current_item = None
@@ -69,7 +70,7 @@ class Book:
                 self.nisc_data = NISC(app_index=app_index, book_index=self.book_index, name=self.current_item_name)
                 self.nisc_data.update(app_index=app_index, book_index=self.book_index, row=row)
             else:
-                self.current_item = Item(app_index=app_index, book_index=self.book_index, name=self.current_item_name, nisc_data=self.nisc_data, df_rec_search=self.df_rec_search)
+                self.current_item = Item(app_index=app_index, book_index=self.book_index, name=self.current_item_name, nisc_data=self.nisc_data, df_rec_search=self.df_rec_search, my_book=self)
                 self.items[self.current_item_name] = self.current_item
                 self.current_item.update(app_index, self.book_index, row)
                 

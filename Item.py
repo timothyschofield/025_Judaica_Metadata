@@ -13,7 +13,7 @@ from helper_functions_judaica import validate_xml, decimal_encode_for_xml, log_m
 
 
 class Item:
-    def __init__(self, app_index, book_index, name, nisc_data, df_rec_search):
+    def __init__(self, app_index, book_index, name, nisc_data, df_rec_search, my_book):
         
         self.name = name
         self.rows = dict()
@@ -24,6 +24,9 @@ class Item:
         
         # rec_search metadata for all Items
         self.df_rec_search = df_rec_search 
+        
+        self.my_book = my_book # A pointer to the book this item is part of
+        
         # Collect all the illustration_types in this Item for the rec_search metadata
         self.illustration_type_list = []
         
@@ -116,6 +119,14 @@ class Item:
     """
     """
     def create_rec_search_xml(self):
+        
+        # For the link section
+        # Collect all the titles of the other Items in this Item's Book
+        other_items_in_this_book = dict()
+        for item_name, item, in self.my_book.items.items():
+            
+            print(f"Item name: {item_name}")
+        
         
         this_line = self.df_rec_search.loc[self.name]
         pqid = this_line["<pqid>"]
