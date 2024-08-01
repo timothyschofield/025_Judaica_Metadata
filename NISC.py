@@ -72,7 +72,7 @@ class NISC:
         for image_name, (book_index, row), in self.first_part.items():
         
             colour = row["Colour"]
-            page_type = row["Page_type"] # Was "Page Type"
+            page_type = row["Page Type"] # Was "Page Type"
             
             ret_data =  (   f"{ret_data}"
                             f"<itemimage>\n"

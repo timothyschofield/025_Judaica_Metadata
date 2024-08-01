@@ -46,13 +46,14 @@ from helper_functions_judaica import get_file_timestamp
 from App import App
 
 input_folder = Path(f"metadata_input")
-#input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - BENCHMARK.csv")
-input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807-2.csv")
+input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - BENCHMARK.csv")
+# input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807-2.csv")
 
 input_path = Path(f"{input_folder}/{input_file}")
 
-# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - Benchmark.csv")
-re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807.csv")
+re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - Benchmark.csv")
+#re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807.csv")
+
 re_search_input_path = Path(f"{input_folder}/{re_search_input_file}")
 
 output_path = Path(f"metadata_output/judaica_xml_{get_file_timestamp()}")

@@ -60,7 +60,7 @@ class Item:
             colour = row["Colour"]
             if type(colour) != str: colour = "None"
 
-            page_type = row["Page_type"]  # was "Page Type"
+            page_type = row["Page Type"]  # was "Page Type"
             if type(page_type) != str: page_type = "None"     
                           
             # This is the basic line - all tabs included even if value "None"
@@ -68,7 +68,7 @@ class Item:
             
             #######################
             # elements below here are not included in the output if they have no value
-            page_number = row["Page number"] 
+            page_number = row["Page number"]  # Was "Page number"
             if type(page_number) == str:
                 this_line = f"{this_line}<orderlabel>{page_number}</orderlabel>"
         
