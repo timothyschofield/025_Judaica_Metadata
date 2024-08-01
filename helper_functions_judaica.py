@@ -10,6 +10,7 @@ def log_message(message):
     with open(error_log_path, "a") as f:
         f.write(f"{get_file_timestamp()}: {message}\n")
 
+
 import html
 # You do not pass XML in here, just data you want to be carried in XML
 def decimal_encode_for_xml(data_in):
@@ -20,6 +21,7 @@ def decimal_encode_for_xml(data_in):
   non_binary = binary_encoded.decode("utf-8") # Gets rid of the leading 'b'
   
   return non_binary
+
 
 import xml.etree.ElementTree as ET
 def validate_xml(xml_text):

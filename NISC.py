@@ -20,9 +20,7 @@
     
 """
 from pathlib import Path
-# The irst row is eaten by the init and subsequent rows are processed by update
-# Call update at end of init
-# Like wise for Book - we are missing the first row because the Book init is eating it
+
 class NISC:
     def __init__(self, app_index, book_index, name):
         
@@ -74,7 +72,7 @@ class NISC:
         for image_name, (book_index, row), in self.first_part.items():
         
             colour = row["Colour"]
-            page_type = row["Page Type"]
+            page_type = row["Page_type"] # Was "Page Type"
             
             ret_data =  (   f"{ret_data}"
                             f"<itemimage>\n"

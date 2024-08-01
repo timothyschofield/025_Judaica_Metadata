@@ -4,9 +4,6 @@
         uni-ucl-jud-0015052
         uni-ucl-jud-0015063
 
-    OK, So I don't know how to do the numbering but I 
-    can still write the correct files and do most of the metadata
-
 """
 from pathlib import Path
 
