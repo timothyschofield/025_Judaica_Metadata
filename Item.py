@@ -41,26 +41,33 @@ class Item:
                     f"<itemimagefiles>\n"
                     )
         
-        ret_data = f"{ret_data}{self.nisc_data.create_xml()}"
+        # Writes a NISC item folder and ocr folder but no XML written
+        # If it exists at all - sometimes there is no NISC data part 1 or part 2!
+        if self.nisc_data is not None:
+            ret_data = f"{ret_data}{self.nisc_data.create_xml()}"
         
-        # Now the main image non NISC lines
-        len_first_part = len(self.nisc_data.first_part)
-        len_second_part = len(self.nisc_data.second_part)
-    
-        # always counts on from order in the NISC
-        order = len_second_part + 1
+            # Now the main image non NISC lines
+            len_first_part = len(self.nisc_data.first_part)
+            len_second_part = len(self.nisc_data.second_part)
         
-        # This depend on whether image_number resets with each new Item or just counts on through Items in a Book
-        # In which case use book_index
-        # Jessica says the image_number resetting for every item is the correct way
-        image_number =  len_first_part + len_second_part + 1
+            # always counts on from order in the NISC
+            order = len_second_part + 1
+            
+            # This depend on whether image_number resets with each new Item or just counts on through Items in a Book
+            # In which case use book_index
+            # Jessica says the image_number resetting for every item is the correct way
+            image_number =  len_first_part + len_second_part + 1
+        else:
+            order = 0 + 1
+            image_number =  0 + 0 + 1
+        
         
         for image_name, (book_index, row), in self.rows.items():
             
             colour = row["Colour"]
             if type(colour) != str: colour = "None"
 
-            page_type = row["Page Type"]  # was "Page Type"
+            page_type = row["Page_type"]  # was "Page Type"
             if type(page_type) != str: page_type = "None"     
                           
             # This is the basic line - all tabs included even if value "None"
@@ -68,7 +75,7 @@ class Item:
             
             #######################
             # elements below here are not included in the output if they have no value
-            page_number = row["Page number"]  # Was "Page number"
+            page_number = row["Pagenumber"]  # Was "Page number" - odd
             if type(page_number) == str:
                 this_line = f"{this_line}<orderlabel>{page_number}</orderlabel>"
         
@@ -133,22 +140,37 @@ class Item:
         if type(imprint)!= str: imprint = "unknown"   
     
         startdate = this_line["<startdate>"]
-        if math.isnan(startdate): startdate = "unknown" 
-        else: startdate = int(startdate)   
+        if type(startdate) == str:
+            if startdate == "": startdate = "unknown"
+        else:
+            if math.isnan(startdate): startdate = "unknown" 
+            else: startdate = int(startdate)
+        ##if math.isnan(startdate): startdate = "unknown" 
+        ##else: startdate = int(startdate)   
     
         enddate = this_line["<enddate>"]
-        if math.isnan(enddate): enddate = "unknown" 
-        else: enddate = int(enddate)   
+        if type(enddate) == str:
+            if enddate == "": enddate = "unknown"
+        else:
+            if math.isnan(enddate): enddate = "unknown" 
+            else: enddate = int(enddate)       
+        ##if math.isnan(enddate): enddate = "unknown" 
+        ##else: enddate = int(enddate)   
     
         displaydate = this_line["<displaydate>"]
-        if math.isnan(displaydate): displaydate = "unknown" 
-        else: displaydate = int(displaydate)    
+        if type(displaydate) == str:
+            if displaydate == "": displaydate = "unknown"
+        else:
+            if math.isnan(displaydate): displaydate = "unknown" 
+            else: displaydate = int(displaydate) 
+        #if math.isnan(displaydate): displaydate = "unknown" 
+        #else: displaydate = int(displaydate)    
     
         shelfmark = this_line["<shelfmark>"] 
         pagination = this_line["<pagination>"] 
         source_library = this_line["<source_library>"] 
         source_collection = this_line["<source_collection>"]
-        language = this_line["<language>"]   
+        language = decimal_encode_for_xml(this_line["<language>"]) # Latin & Hebrew 
     
         illustrations_tag = f""
         if len(self.illustration_type_list) != 0:

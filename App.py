@@ -4,7 +4,6 @@
 """
 from pathlib import Path 
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 import os
 from helper_functions_judaica import get_file_timestamp
