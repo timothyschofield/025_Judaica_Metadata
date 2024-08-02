@@ -133,9 +133,36 @@ class Item:
         title = decimal_encode_for_xml(this_line["<title>"])
         
         author_main = this_line["<author_name>"]
-        author_corrected = author_main
-        author_uninverted = author_main
+        author_corrected = this_line["<author_corrected>"]      # new
+        author_uninverted = this_line["<author_uninverted>"]    # new
            
+           
+           
+        # shelfmark publisher_printer place_of_publication country_of_publication pagination
+        # All of these have no tag if no value
+        publisher_printer = this_line["<publisher_printer>"]
+        if type(publisher_printer) == str:
+            if publisher_printer == "": publisher_printer = "unknown"
+        else:
+            publisher_printer = "unknown"
+        
+        place_of_publication = this_line["<place_of_publication>"] 
+        if type(place_of_publication) == str:
+            if place_of_publication == "": place_of_publication = "unknown"
+        else:
+            place_of_publication = "unknown"        
+                  
+        country_of_publication = this_line["<country_of_publication>"]
+        if type(country_of_publication) == str:
+            if country_of_publication == "": country_of_publication = "unknown"
+        else:
+            country_of_publication = "unknown"                   
+        
+        shelfmark = this_line["<shelfmark>"] 
+        pagination = this_line["<pagination>"] 
+                   
+                   
+  
         imprint = this_line["<imprint>"]
         if type(imprint)!= str: imprint = "unknown"   
     
@@ -166,8 +193,7 @@ class Item:
         #if math.isnan(displaydate): displaydate = "unknown" 
         #else: displaydate = int(displaydate)    
     
-        shelfmark = this_line["<shelfmark>"] 
-        pagination = this_line["<pagination>"] 
+        
         source_library = this_line["<source_library>"] 
         source_collection = this_line["<source_collection>"]
         language = decimal_encode_for_xml(this_line["<language>"]) # Latin & Hebrew 
@@ -196,7 +222,6 @@ class Item:
        
             link_tag = f"{link_tag}</linksec>\n" 
             
-    
         rec_search = (   f"\n\n<rec_search>\n<pqid>{pqid}</pqid>\n"
                         f"<title>{title}</title>\n"
                         f"<author_main>\n\t<author_name>{author_main}</author_name>\n\t<author_corrected>{author_corrected}</author_corrected>\n\t<author_uninverted>{author_uninverted}</author_uninverted>\n</author_main>\n"
@@ -204,8 +229,16 @@ class Item:
                         f"<startdate>{startdate}</startdate>\n"
                         f"<enddate>{enddate}</enddate>\n"
                         f"<displaydate>{displaydate}</displaydate>\n"
+                        
+                        # shelfmark publisher_printer place_of_publication country_of_publication pagination
+                        # All of these have no visible tag if no value
                         f"<shelfmark>{shelfmark}</shelfmark>\n"
+                        f"<publisher_printer>{publisher_printer}</publisher_printer>\n"                        
+                        f"<place_of_publication>{place_of_publication}</place_of_publication>\n"                        
+                        f"<country_of_publication>{country_of_publication}</country_of_publication>\n"                        
                         f"<pagination>{pagination}</pagination>\n"
+                        
+                        
                         f"<source_library>{source_library}</source_library>\n"
                         f"<source_collection>{source_collection}</source_collection>\n"
                         f"<language>{language}</language>\n"
