@@ -136,31 +136,34 @@ class Item:
         author_corrected = this_line["<author_corrected>"]      # new
         author_uninverted = this_line["<author_uninverted>"]    # new
            
-           
-           
         # shelfmark publisher_printer place_of_publication country_of_publication pagination
         # All of these have no tag if no value
         publisher_printer = this_line["<publisher_printer>"]
-        if type(publisher_printer) == str:
-            if publisher_printer == "": publisher_printer = "unknown"
-        else:
-            publisher_printer = "unknown"
+        publisher_printer_tag = f""
+        if type(publisher_printer) == str and publisher_printer != "":
+            publisher_printer_tag = f"<publisher_printer>{publisher_printer}</publisher_printer>\n" 
+
+        place_of_publication = this_line["<place_of_publication>"]
+        place_of_publication_tag = f""
+        if type(place_of_publication) == str and place_of_publication != "":
+            place_of_publication_tag = f"<place_of_publication>{place_of_publication}</place_of_publication>\n"         
         
-        place_of_publication = this_line["<place_of_publication>"] 
-        if type(place_of_publication) == str:
-            if place_of_publication == "": place_of_publication = "unknown"
-        else:
-            place_of_publication = "unknown"        
-                  
         country_of_publication = this_line["<country_of_publication>"]
-        if type(country_of_publication) == str:
-            if country_of_publication == "": country_of_publication = "unknown"
-        else:
-            country_of_publication = "unknown"                   
+        country_of_publication_tag = f""
+        if type(country_of_publication) == str and country_of_publication != "":
+            country_of_publication_tag = f"<country_of_publication>{country_of_publication}</country_of_publication>\n"                  
         
-        shelfmark = this_line["<shelfmark>"] 
-        pagination = this_line["<pagination>"] 
-                   
+        shelfmark = this_line["<shelfmark>"]
+        shelfmark_tag = f""
+        if type(shelfmark) == str and shelfmark != "":
+            shelfmark_tag = f"<shelfmark>{shelfmark}</shelfmark>\n"         
+        
+        pagination = this_line["<pagination>"]
+        pagination_tag = f""
+        if type(pagination) == str and pagination != "":
+            pagination_tag = f"<pagination>{pagination}</pagination>\n"         
+          
+        #################################################################
                    
   
         imprint = this_line["<imprint>"]
@@ -232,12 +235,11 @@ class Item:
                         
                         # shelfmark publisher_printer place_of_publication country_of_publication pagination
                         # All of these have no visible tag if no value
-                        f"<shelfmark>{shelfmark}</shelfmark>\n"
-                        f"<publisher_printer>{publisher_printer}</publisher_printer>\n"                        
-                        f"<place_of_publication>{place_of_publication}</place_of_publication>\n"                        
-                        f"<country_of_publication>{country_of_publication}</country_of_publication>\n"                        
-                        f"<pagination>{pagination}</pagination>\n"
-                        
+                        f"{shelfmark_tag}"
+                        f"{publisher_printer_tag}"                        
+                        f"{place_of_publication_tag}"                        
+                        f"{country_of_publication_tag}"                        
+                        f"{pagination_tag}"
                         
                         f"<source_library>{source_library}</source_library>\n"
                         f"<source_collection>{source_collection}</source_collection>\n"
