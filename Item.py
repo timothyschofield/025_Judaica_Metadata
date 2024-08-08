@@ -65,17 +65,26 @@ class Item:
         for image_name, (book_index, row), in self.rows.items():
             
             colour = row["Colour"]
-            if type(colour) != str: colour = "None"
+            colour_tab = f""
+            if type(colour) == str:
+                colour_tab = f"<colour>{colour}</colour>"
 
-            page_type = row["Page_type"]  # was "Page Type"
-            if type(page_type) != str: page_type = "None"     
-                          
-            # This is the basic line - all tabs included even if value "None"
-            this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>"
+            page_type_1 = row["Page_type_1"] 
+            page_type_1_tab = f""
+            if type(page_type_1) == str:
+                page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            
+            page_type_2 = row["Page_type_2"] 
+            page_type_2_tab = f""
+            if type(page_type_2) == str:
+                page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>" 
+                
+            this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}"  
+            
             
             #######################
             # elements below here are not included in the output if they have no value
-            page_number = row["Pagenumber"]  # Was "Page number" - odd
+            page_number = row["Page number"]  
             if type(page_number) == str:
                 this_line = f"{this_line}<orderlabel>{page_number}</orderlabel>"
         

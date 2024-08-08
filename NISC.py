@@ -72,11 +72,23 @@ class NISC:
         for image_name, (book_index, row), in self.first_part.items():
         
             colour = row["Colour"]
-            page_type = row["Page_type"] # Was "Page Type"
+            colour_tab = f""
+            if type(colour) == str:
+                colour_tab = f"<colour>{colour}</colour>"
+
+            page_type_1 = row["Page_type_1"] 
+            page_type_1_tab = f""
+            if type(page_type_1) == str:
+                page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            
+            page_type_2 = row["Page_type_2"] 
+            page_type_2_tab = f""
+            if type(page_type_2) == str:
+                page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
             
             ret_data =  (   f"{ret_data}"
                             f"<itemimage>\n"
-                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>\n"
+                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
                             f"</itemimage>\n"
                         )
             image_number = image_number + 1
@@ -85,11 +97,23 @@ class NISC:
         for image_name, (book_index, row), in self.second_part.items():
             
             colour = row["Colour"]
-            page_type = row["Page_type"]
+            colour_tab = f""
+            if type(colour) == str:
+                colour_tab = f"<colour>{colour}</colour>"
+
+            page_type_1 = row["Page_type_1"] 
+            page_type_1_tab = f""
+            if type(page_type_1) == str:
+                page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            
+            page_type_2 = row["Page_type_2"] 
+            page_type_2_tab = f""
+            if type(page_type_2) == str:
+                page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
             
             ret_data =  (   f"{ret_data}"
                             f"<itemimage>\n"
-                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber><colour>{colour}</colour><pagetype>{page_type}</pagetype>\n"
+                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
                             f"</itemimage>\n"
                         )
             image_number = image_number + 1
