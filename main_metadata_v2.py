@@ -38,12 +38,11 @@
 
 """
 from pathlib import Path 
-import numpy as np
 import pandas as pd
 import os
 from helper_functions_judaica import get_file_timestamp
 
-from App import App
+from metadata_package import App
 
 input_folder = Path(f"metadata_input")
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - BENCHMARK.csv")
@@ -79,6 +78,8 @@ df_metadata = pd.read_csv(input_path)
 
 df_rec_search = pd.read_csv(re_search_input_path)
 df_rec_search.set_index("Item name", inplace=True)
+
+
 
 app1 = App(df_metadata=df_metadata, df_rec_search=df_rec_search, output_path=output_path)
 

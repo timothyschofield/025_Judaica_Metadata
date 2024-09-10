@@ -3,12 +3,14 @@
 
 """
 from pathlib import Path 
-import numpy as np
-import pandas as pd
-import os
-from helper_functions_judaica import get_file_timestamp
 
-from Book import Book
+# Book = Volume = Boundwith
+# There can be any number of Books in one CSV
+# e.g. uni-ucl-jud-0015053, uni-ucl-jud-0130519, uni-ucl-jud-0130524 are different books
+# Any one Book can have multiple Items, 
+# e.g. uni-ucl-jud-0130524-001, uni-ucl-jud-0130524-002 are different items of the Book uni-ucl-jud-0130524
+
+from metadata_package import Book as book_module
 
 class App:
     def __init__(self, df_metadata, df_rec_search, output_path):
@@ -38,7 +40,7 @@ class App:
             book.write_xml(output_path=self.output_path)
             
     """
-    """        
+    """         
     def update(self, app_index, row):        
 
         this_book_name = self._get_book_name(row)
@@ -47,7 +49,8 @@ class App:
             self.old_book_name = self.current_book_name
             self.current_book_name = this_book_name
             
-            self.current_book = Book(app_index=app_index, row=row, name=self.current_book_name, df_rec_search=self.df_rec_search)
+            self.current_book = book_module.Book(app_index=app_index, row=row, name=self.current_book_name, df_rec_search=self.df_rec_search)
+            
             self.books[self.current_book_name] = self.current_book
             self.current_book.update(app_index=app_index, row=row)
         else:

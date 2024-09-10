@@ -2,13 +2,13 @@
     Book.py
     e.g.
         uni-ucl-jud-0015052
-        uni-ucl-jud-0015063
+        uni-ucl-jud-0015063 
 
 """
 from pathlib import Path
 
-from NISC import NISC
-from Item import Item
+from metadata_package import NISC as nisc_module
+from metadata_package import Item as item_module
 
 class Book:
     def __init__(self, app_index, row, name, df_rec_search):
@@ -69,10 +69,10 @@ class Book:
             # Create either a new NISC instance for this Book or
             # A new Item for the items list 
             if self.is_nisc:
-                self.nisc_data = NISC(app_index=app_index, book_index=self.book_index, name=self.current_item_name)
+                self.nisc_data = nisc_module.NISC(app_index=app_index, book_index=self.book_index, name=self.current_item_name)
                 self.nisc_data.update(app_index=app_index, book_index=self.book_index, row=row)
             else:
-                self.current_item = Item(app_index=app_index, book_index=self.book_index, name=self.current_item_name, nisc_data=self.nisc_data, df_rec_search=self.df_rec_search, my_book=self)
+                self.current_item = item_module.Item(app_index=app_index, book_index=self.book_index, name=self.current_item_name, nisc_data=self.nisc_data, df_rec_search=self.df_rec_search, my_book=self)
                 self.items[self.current_item_name] = self.current_item
                 self.current_item.update(app_index, self.book_index, row)
                 
