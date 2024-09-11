@@ -71,7 +71,7 @@ class NISC:
         order = 0
         for image_name, (book_index, row), in self.first_part.items():
         
-            colour = row["Colour"]
+            colour = row["colour"]
             colour_tab = f""
             if type(colour) == str:
                 colour_tab = f"<colour>{colour}</colour>"
@@ -96,7 +96,7 @@ class NISC:
         order = 1
         for image_name, (book_index, row), in self.second_part.items():
             
-            colour = row["Colour"]
+            colour = row["colour"]
             colour_tab = f""
             if type(colour) == str:
                 colour_tab = f"<colour>{colour}</colour>"

@@ -64,7 +64,7 @@ class Item:
         
         for image_name, (book_index, row), in self.rows.items():
             
-            colour = row["Colour"]
+            colour = row["colour"]
             colour_tab = f""
             if type(colour) == str:
                 colour_tab = f"<colour>{colour}</colour>"
@@ -84,7 +84,7 @@ class Item:
             
             #######################
             # elements below here are not included in the output if they have no value
-            page_number = row["Page number"]  
+            page_number = row["Pagenumber"]  
             if type(page_number) == str:
                 this_line = f"{this_line}<orderlabel>{page_number}</orderlabel>"
         
@@ -112,9 +112,11 @@ class Item:
             this_line = f"{this_line}{all_illustration_type}"
             
             #######################
+            """
             translation = row["translation"]
             if type(translation) == str: 
                 this_line = f"{this_line}<translation>{translation}</translation>"
+            """
             
             # Wrap the line in tags for the image line
             ret_data = f"{ret_data}<itemimage>\n\t{this_line}\n</itemimage>\n" 
