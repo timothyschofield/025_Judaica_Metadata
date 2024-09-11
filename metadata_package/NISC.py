@@ -60,9 +60,9 @@ class NISC:
         else:
             # second_part
             self.second_part[image_name] = (book_index, row)
-            # print(f"\t\tbook_index {book_index} {image_name} part 2")       
+            # print(f"\t\tbook_index {book_index} {image_name} part 2")
         
-            """
+    """
     """ 
     def create_xml(self):
     
