@@ -78,8 +78,21 @@ class NISC:
             # print(f"\t\tbook_index {book_index} {image_name} part 2")
         
     """
+        Called at the bottom of the Item _create_xml method
     """
-    
+    def create_xml_back_part(self, order, image_number):
+        
+        return_data = f""
+        for image_name, (book_index, row), in self.back_part.items():
+            
+            this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
+            return_data =  f"{return_data}{this_line}"
+                            
+            image_number = image_number + 1
+            order = order + 1
+            
+        return return_data
+        
     """  
         Write  first_part and second_part of NISC
     """ 
@@ -94,30 +107,6 @@ class NISC:
             this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
             return_data =  f"{return_data}{this_line}"        
         
-            """
-            colour = row["colour"]
-            colour_tab = f""
-            if type(colour) == str:
-                colour_tab = f"<colour>{colour}</colour>"
-
-            page_type_1 = row["Page_type_1"] 
-            if type(page_type_1) == str:
-                page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
-            else:
-                page_type_1_tab = f"<pagetype>None</pagetype>"                
-            
-            page_type_2 = row["Page_type_2"] 
-            page_type_2_tab = f""
-            if type(page_type_2) == str:
-                page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
-            
-            return_data =  (   f"{return_data}"
-                            f"<itemimage>\n"
-                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
-                            f"</itemimage>\n"
-                        )
-            """
-            
             image_number = image_number + 1
 
 
@@ -128,30 +117,6 @@ class NISC:
             this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
             return_data =  f"{return_data}{this_line}"
                             
-            """
-            colour = row["colour"]
-            colour_tab = f""
-            if type(colour) == str:
-                colour_tab = f"<colour>{colour}</colour>"
-
-            page_type_1 = row["Page_type_1"] 
-            if type(page_type_1) == str:
-                page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
-            else:
-                page_type_1_tab = f"<pagetype>None</pagetype>"                   
-            
-            page_type_2 = row["Page_type_2"] 
-            page_type_2_tab = f""
-            if type(page_type_2) == str:
-                page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
-            
-            return_data =  (   f"{return_data}"
-                            f"<itemimage>\n"
-                            f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
-                            f"</itemimage>\n"
-                        )
-            """
-            
             image_number = image_number + 1
             order = order + 1
 

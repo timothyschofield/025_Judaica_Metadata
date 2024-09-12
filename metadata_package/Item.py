@@ -137,8 +137,9 @@ class Item:
         
         # After all the non-NISC lines written
         # We write the back_part - if there is a back_part
-        
-        
+        if self.nisc_data is not None:
+            returned_backpart = self.nisc_data.create_xml_back_part(order, image_number)
+            return_data = f"{return_data}{returned_backpart}"
         
         
         return_data = f"{return_data}</itemimagefiles>"
