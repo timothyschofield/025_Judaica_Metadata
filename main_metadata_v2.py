@@ -3,11 +3,13 @@
     Author: Tim Schofield
     Date: 27 June 2024   
     
-    This uses a double scan - first we collect the data from the input speadsheet and in a hierachical data structure of Books, Items and NISCs.
+    This uses a double scan - first we collect the data from the input speadsheet in a hierachical data structure of Books, Items and NISCs.
     Once we have the structured data we can go through it and write out the metadata xml in a sane fashion.
 
     This is specificaly required to address the problem of linked data, where items in a book/volume need to know about one another's existance.
     A single scan is no good for this, because the earlyer items in a book/volume can not know about later items because the data has not yet been collected.
+    The double scan is also required for collecting volumeimagefiles info, which includes all the imagedata for all Items in a Book and
+    is inserted into the XML for each Item.
 
     OOPs approach required
 

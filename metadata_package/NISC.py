@@ -77,25 +77,6 @@ class NISC:
                 self.second_part[image_name] = (book_index, row)
             # print(f"\t\tbook_index {book_index} {image_name} part 2")
         
-    """
-        Writes the back_part of NISC
-        Called at the bottom of the Item _create_xml method
-    """
-    def create_xml_back_part(self, order, image_number):
-        
-        return_data = f""
-        for image_name, (book_index, row), in self.back_part.items():
-            
-            image_file_tag = "itemimagefile1"
-            image_line_tag = "itemimage"            
-            this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
-            return_data =  f"{return_data}{this_line}"
-                            
-            image_number = image_number + 1
-            order = order + 1
-            
-        return return_data
-        
     """  
         Write first_part and second_part of NISC
     """ 
@@ -114,7 +95,6 @@ class NISC:
         
             image_number = image_number + 1
 
-
         order = 1
         # Write second_part
         for image_name, (book_index, row), in self.second_part.items():
@@ -127,6 +107,25 @@ class NISC:
             image_number = image_number + 1
             order = order + 1
 
+        return return_data
+    
+    """
+        Writes the back_part of NISC
+        Called at the bottom of the Item _create_xml method
+    """
+    def create_xml_back_part(self, order, image_number):
+        
+        return_data = f""
+        for image_name, (book_index, row), in self.back_part.items():
+            
+            image_file_tag = "itemimagefile1"
+            image_line_tag = "itemimage"            
+            this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
+            return_data =  f"{return_data}{this_line}"
+                            
+            image_number = image_number + 1
+            order = order + 1
+            
         return return_data
     
     """
@@ -148,8 +147,6 @@ class NISC:
         page_type_2_tab = f""
         if type(page_type_2) == str:
             page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
-        
-        # parameterise itemimagefile1 and itemimage?
         
         return_data =  (
                         f"<{image_line_tag}>\n"

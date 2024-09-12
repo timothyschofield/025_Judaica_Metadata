@@ -30,11 +30,17 @@ class Item:
         # Collect all the illustration_types in this Item for the rec_search metadata
         self.illustration_type_list = []
         
+        self.volumeimagefiles_data = None
         print(f"\tNew Item: book_index {book_index} {self.name}")
     
     """
+    """    
+    def get_item_volumeimagefiles_data(self):
         
-    """   
+        return f"{self.name}\n"
+    
+    """
+    """ 
     def _create_xml(self):
         
         # Header for the XML file
@@ -57,7 +63,7 @@ class Item:
             # always counts on from order in the NISC
             order = len_second_part + 1
             
-            # This depend on whether image_number resets with each new Item or just counts on through Items in a Book
+            # The image_number resets with each new Item or just counts on through Items in a Book
             # In which case use book_index
             # Jessica says the image_number resetting for every item is the correct way
             image_number =  len_first_part + len_second_part + 1
@@ -96,6 +102,8 @@ class Item:
         # and contains info on ALL items in the Volume
         # so item001.xml contains info on item002.xml etc.
         # So must be collected BEFORE all Items _create_xml methods
+        return_data = f"{return_data}{self.volumeimagefiles_data}"
+        
         
         return_data = f"{return_data}{self._create_rec_search_xml()}"
 
@@ -289,7 +297,10 @@ class Item:
     
     """
     """
-    def write_xml(self, output_path):
+    def write_xml(self, output_path, volumeimagefiles_data):
+        
+        self.volumeimagefiles_data = volumeimagefiles_data
+        
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"\tItem path:{self.output_path}")     
          

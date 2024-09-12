@@ -29,13 +29,21 @@ class Book:
         
         self.output_path = None
         
-        self.volumeimagefiles_data = None
-        
         # book_index is the index of the NISC or Item within the Book
         self.book_index = 1
         print(f"New Book: book_index {self.book_index} {self.name}")
         
     """
+        All Items exist at this point
+        
+        We iterate through them twice.
+        
+        1) The first iteration we are collecting volumeimagefiles data.
+        This is a complete collection of all image files in a Book 
+        
+        2) This volumeimagefiles data is then inserted into the middle of the XML for each individual item
+        on the second iteration
+        
     """       
     def write_xml(self, output_path):
         
@@ -49,10 +57,10 @@ class Book:
         else:
             print("****self.nisc_data was None****")
         
-        # self.create_volumeimagefiles_data()
+        volumeimagefiles_data = self.create_volumeimagefiles_data()
         
         for item_key, item, in self.items.items():
-            item.write_xml(output_path=self.output_path)
+            item.write_xml(output_path=self.output_path, volumeimagefiles_data=volumeimagefiles_data)
 
     """
     <volumeimagefiles>
@@ -66,6 +74,9 @@ class Book:
             
             linesXXX
                 order = 3, imagenumber++
+                
+                ...
+                at the end
                 000-0003L order = NISC001, imagenumber++
                 000-0004R order = NISC001, imagenumber++
     </volumeimagefiles>
@@ -73,11 +84,16 @@ class Book:
     """
     def create_volumeimagefiles_data(self):
         
-        self.volumeimagefiles_data = f""
-        # Just the imagenumber need to be passed to next item
+        volumeimagefiles_data = f"\n\n<volumeimagefiles>\n\n"
         for item_key, item, in self.items.items():
+            
             this_data = item.get_item_volumeimagefiles_data()
-            self.volumeimagefiles_data = f"{self.volumeimagefiles_data}{this_data}"
+            
+            volumeimagefiles_data = f"{volumeimagefiles_data}{this_data}"
+    
+        volumeimagefiles_data = f"{volumeimagefiles_data}\n</volumeimagefiles>\n"
+    
+        return volumeimagefiles_data
     
     """
     """    
