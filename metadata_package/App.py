@@ -31,11 +31,11 @@ class App:
             self.update(app_index, row)
 
         print("##### WRITING XML #####")
-        self.write_xml()
+        self._write_xml()
 
     """
     """    
-    def write_xml(self):
+    def _write_xml(self):
         for book_key, book, in self.books.items():
             book.write_xml(output_path=self.output_path)
             

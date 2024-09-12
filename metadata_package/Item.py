@@ -36,7 +36,7 @@ class Item:
     """   
     def _create_xml(self):
         
-        ret_data =  (
+        return_data =  (
                     f"<rec>\n\n<itemid>{self.name}</itemid>\n\n<subscription>\n\t<unit>unpublished</unit>\n\t<country>uni</country>\n</subscription>\n\n"
                     f"<itemimagefiles>\n"
                     )
@@ -44,7 +44,7 @@ class Item:
         # Writes a NISC item folder and ocr folder but no XML written
         # If it exists at all - sometimes there is no NISC data part 1 or part 2!
         if self.nisc_data is not None:
-            ret_data = f"{ret_data}{self.nisc_data.create_xml()}"
+            return_data = f"{return_data}{self.nisc_data.create_xml()}"
         
             # Now the main image non NISC lines
             len_first_part = len(self.nisc_data.first_part)
@@ -69,25 +69,28 @@ class Item:
             if type(colour) == str:
                 colour_tab = f"<colour>{colour}</colour>"
 
+
             page_type_1 = row["Page_type_1"] 
-            page_type_1_tab = f""
             if type(page_type_1) == str:
                 page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            else:
+                page_type_1_tab = f"<pagetype>None</pagetype>"               
+            
             
             page_type_2 = row["Page_type_2"] 
             page_type_2_tab = f""
             if type(page_type_2) == str:
                 page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>" 
                 
-            this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}"  
-            
-            
-            #######################
-            # elements below here are not included in the output if they have no value
-            page_number = row["Pagenumber"]  
+                
+            page_number = row["Pagenumber"]
+            orderlabel_tag = f""
             if type(page_number) == str:
-                this_line = f"{this_line}<orderlabel>{page_number}</orderlabel>"
-        
+                orderlabel_tag = f"<orderlabel>{page_number}</orderlabel>"    
+                
+            this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{orderlabel_tag}{colour_tab}{page_type_1_tab}{page_type_2_tab}"  
+            
+            
             #######################
             # illustration_type_1 to illustration_type_5 and instances_of_1 toinstances_of_5
             
@@ -119,7 +122,7 @@ class Item:
             """
             
             # Wrap the line in tags for the image line
-            ret_data = f"{ret_data}<itemimage>\n\t{this_line}\n</itemimage>\n" 
+            return_data = f"{return_data}<itemimage>\n\t{this_line}\n</itemimage>\n" 
             
             order = order + 1
             image_number = image_number + 1
@@ -128,15 +131,20 @@ class Item:
         # list of unique illustration types for rec search metadata
         self.illustration_type_list = list(set(self.illustration_type_list))
         
-        ret_data = f"{ret_data}</itemimagefiles>"
         
-        ret_data = f"{ret_data}{self.create_rec_search_xml()}"
+        # back_part here?
+        
+        
+        
+        return_data = f"{return_data}</itemimagefiles>"
+        
+        return_data = f"{return_data}{self._create_rec_search_xml()}"
 
-        return ret_data
+        return return_data
   
     """
     """
-    def create_rec_search_xml(self):
+    def _create_rec_search_xml(self):
         
         this_line = self.df_rec_search.loc[self.name]
         pqid = this_line["<pqid>"]
@@ -176,7 +184,6 @@ class Item:
           
         #################################################################
                    
-  
         imprint = this_line["<imprint>"]
         if type(imprint)!= str: imprint = "unknown"   
     
@@ -185,18 +192,14 @@ class Item:
             if startdate == "": startdate = "unknown"
         else:
             if math.isnan(startdate): startdate = "unknown" 
-            else: startdate = int(startdate)
-        ##if math.isnan(startdate): startdate = "unknown" 
-        ##else: startdate = int(startdate)   
+            else: startdate = int(startdate)  
     
         enddate = this_line["<enddate>"]
         if type(enddate) == str:
             if enddate == "": enddate = "unknown"
         else:
             if math.isnan(enddate): enddate = "unknown" 
-            else: enddate = int(enddate)       
-        ##if math.isnan(enddate): enddate = "unknown" 
-        ##else: enddate = int(enddate)   
+            else: enddate = int(enddate)        
     
         displaydate = this_line["<displaydate>"]
         if type(displaydate) == str:
@@ -204,9 +207,7 @@ class Item:
         else:
             if math.isnan(displaydate): displaydate = "unknown" 
             else: displaydate = int(displaydate) 
-        #if math.isnan(displaydate): displaydate = "unknown" 
-        #else: displaydate = int(displaydate)    
-    
+  
         
         source_library = this_line["<source_library>"] 
         source_collection = this_line["<source_collection>"]
@@ -239,10 +240,12 @@ class Item:
         rec_search = (   f"\n\n<rec_search>\n<pqid>{pqid}</pqid>\n"
                         f"<title>{title}</title>\n"
                         f"<author_main>\n\t<author_name>{author_main}</author_name>\n\t<author_corrected>{author_corrected}</author_corrected>\n\t<author_uninverted>{author_uninverted}</author_uninverted>\n</author_main>\n"
-                        f"<imprint>{imprint}</imprint>\n"
+                        
                         f"<startdate>{startdate}</startdate>\n"
                         f"<enddate>{enddate}</enddate>\n"
                         f"<displaydate>{displaydate}</displaydate>\n"
+                        
+                        f"<imprint>{imprint}</imprint>\n"
                         
                         # shelfmark publisher_printer place_of_publication country_of_publication pagination
                         # All of these have no visible tag if no value
@@ -269,9 +272,7 @@ class Item:
         return rec_search
     
     """
-    """    
-    
-        
+    """
     def write_xml(self, output_path):
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"\tItem path:{self.output_path}")     

@@ -28,14 +28,16 @@ class NISC:
         self.first_part = dict()  
         self.second_part = dict()
         
+        self.back_part = dict()
+        
         self.output_path = None   
             
         print(f"\tNew NISC item: book_index {book_index} {self.name}")
         
     """
-        Writes a NISC item folder and ocr folder but no XML written
+        Creates a NISC item folder and ocr folder but no XML is written
     """     
-    def write_folders(self, output_path):       
+    def create_folders(self, output_path):       
         self.output_path = Path(f"{output_path}/{self.name}")
         print(f"\tNISC path:{self.output_path}")  
         
@@ -59,6 +61,13 @@ class NISC:
             # print(f"\t\tbook_index {book_index} {image_name} part 1")
         else:
             # second_part
+            
+            # self.back_part in here
+            # If there is a second_part can we assume it is always 4 in length?
+            # As far as all the batches go this is true
+            # If there is a second_part are always called 000-0003L and 000-0004R? - why not just use that?
+            # As far as all the batches go this is true
+            
             self.second_part[image_name] = (book_index, row)
             # print(f"\t\tbook_index {book_index} {image_name} part 2")
         
@@ -66,7 +75,7 @@ class NISC:
     """ 
     def create_xml(self):
     
-        ret_data = f""
+        return_data = f""
         image_number = 1
         order = 0
         for image_name, (book_index, row), in self.first_part.items():
@@ -77,21 +86,23 @@ class NISC:
                 colour_tab = f"<colour>{colour}</colour>"
 
             page_type_1 = row["Page_type_1"] 
-            page_type_1_tab = f""
             if type(page_type_1) == str:
                 page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            else:
+                page_type_1_tab = f"<pagetype>None</pagetype>"                
             
             page_type_2 = row["Page_type_2"] 
             page_type_2_tab = f""
             if type(page_type_2) == str:
                 page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
             
-            ret_data =  (   f"{ret_data}"
+            return_data =  (   f"{return_data}"
                             f"<itemimage>\n"
                             f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
                             f"</itemimage>\n"
                         )
             image_number = image_number + 1
+
 
         order = 1
         for image_name, (book_index, row), in self.second_part.items():
@@ -102,16 +113,17 @@ class NISC:
                 colour_tab = f"<colour>{colour}</colour>"
 
             page_type_1 = row["Page_type_1"] 
-            page_type_1_tab = f""
             if type(page_type_1) == str:
                 page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            else:
+                page_type_1_tab = f"<pagetype>None</pagetype>"                   
             
             page_type_2 = row["Page_type_2"] 
             page_type_2_tab = f""
             if type(page_type_2) == str:
                 page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
             
-            ret_data =  (   f"{ret_data}"
+            return_data =  (   f"{return_data}"
                             f"<itemimage>\n"
                             f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
                             f"</itemimage>\n"
@@ -119,5 +131,9 @@ class NISC:
             image_number = image_number + 1
             order = order + 1
 
-        return ret_data
+
+
+
+
+        return return_data
     

@@ -43,7 +43,7 @@ class Book:
         # Writes a NISC item folder and ocr folder but no XML written
         # If it exists at all - sometimes there is no NISC data part 1 or part 2!
         if self.nisc_data is not None:
-            self.nisc_data.write_folders(output_path=self.output_path)    # nisc_data is NoneType
+            self.nisc_data.create_folders(output_path=self.output_path)    # nisc_data is NoneType
         else:
             print("****self.nisc_data was None****")
         
