@@ -75,60 +75,6 @@ class Item:
             this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
             return_data = f"{return_data}{this_line}"
             
-            """
-            colour = row["colour"]
-            colour_tab = f""
-            if type(colour) == str:
-                colour_tab = f"<colour>{colour}</colour>"
-
-
-            page_type_1 = row["Page_type_1"] 
-            if type(page_type_1) == str:
-                page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
-            else:
-                page_type_1_tab = f"<pagetype>None</pagetype>"               
-            
-            
-            page_type_2 = row["Page_type_2"] 
-            page_type_2_tab = f""
-            if type(page_type_2) == str:
-                page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>" 
-                
-                
-            page_number = row["Pagenumber"]
-            orderlabel_tag = f""
-            if type(page_number) == str:
-                orderlabel_tag = f"<orderlabel>{page_number}</orderlabel>"    
-                
-            this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{orderlabel_tag}{colour_tab}{page_type_1_tab}{page_type_2_tab}"  
-            
-            # illustration_type_1 to illustration_type_5 and instances_of_1 toinstances_of_5
-            all_illustration_type = ""
-            for i in range(1, 6):
-                
-                illustration_type = row[f"illustration_type_{i}"]  
-                num_instances_of = row[f"instances_of_{i}"]
-                
-                # Collect the illustration types for the rec_search metadata
-                if type(illustration_type) == str: self.illustration_type_list.append(illustration_type)
-                
-                if type(illustration_type) == str:
-               
-                    if math.isnan(num_instances_of) == False: num_instances_of = int(num_instances_of)
-                    else: num_instances_of = 1 # If some one has set the illustration type but forgotten to set num_instances_of to 1
-                    
-                    illustration_type = f'<pagecontent number="{num_instances_of}">{illustration_type}</pagecontent>'
-                        
-                    all_illustration_type = f"{all_illustration_type}{illustration_type}"
-            
-            this_line = f"{this_line}{all_illustration_type}"
-            
-            #######################
-
-            # Wrap the line in tags for the image line
-            return_data = f"{return_data}<itemimage>\n\t{this_line}\n</itemimage>\n" 
-            """
-            
             order = order + 1
             image_number = image_number + 1
             # end of for each image line

@@ -86,7 +86,9 @@ class NISC:
         return_data = f""
         for image_name, (book_index, row), in self.back_part.items():
             
-            this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
+            image_file_tag = "itemimagefile1"
+            image_line_tag = "itemimage"            
+            this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
             return_data =  f"{return_data}{this_line}"
                             
             image_number = image_number + 1
@@ -105,7 +107,9 @@ class NISC:
         # Write first_part
         for image_name, (book_index, row), in self.first_part.items():
         
-            this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
+            image_file_tag = "itemimagefile1"
+            image_line_tag = "itemimage"
+            this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
             return_data =  f"{return_data}{this_line}"        
         
             image_number = image_number + 1
@@ -115,7 +119,9 @@ class NISC:
         # Write second_part
         for image_name, (book_index, row), in self.second_part.items():
             
-            this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
+            image_file_tag = "itemimagefile1"
+            image_line_tag = "itemimage"            
+            this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
             return_data =  f"{return_data}{this_line}"
                             
             image_number = image_number + 1
@@ -125,7 +131,7 @@ class NISC:
     
     """
     """
-    def _create_xml_line(self, image_name, book_index, row, order, image_number):
+    def _create_xml_line(self, image_name, book_index, row, order, image_number, image_file_tag, image_line_tag):
         
         colour = row["colour"]
         colour_tab = f""
@@ -146,9 +152,9 @@ class NISC:
         # parameterise itemimagefile1 and itemimage?
         
         return_data =  (
-                        f"<itemimage>\n"
-                        f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
-                        f"</itemimage>\n"
+                        f"<{image_line_tag}>\n"
+                        f"\t<{image_file_tag}>{image_name}</{image_file_tag}><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
+                        f"</{image_line_tag}>\n"
                        )
         
         return return_data
