@@ -29,6 +29,8 @@ class Book:
         
         self.output_path = None
         
+        self.volumeimagefiles_data = None
+        
         # book_index is the index of the NISC or Item within the Book
         self.book_index = 1
         print(f"New Book: book_index {self.book_index} {self.name}")
@@ -47,11 +49,38 @@ class Book:
         else:
             print("****self.nisc_data was None****")
         
+        # self.create_volumeimagefiles_data()
+        
         for item_key, item, in self.items.items():
             item.write_xml(output_path=self.output_path)
 
     """
+    <volumeimagefiles>
+        NISC001
+            lines001
+                order = ???, imagenumber++
+                
+            lines002
+                order = 3, imagenumber++
+            ...
+            
+            linesXXX
+                order = 3, imagenumber++
+                000-0003L order = NISC001, imagenumber++
+                000-0004R order = NISC001, imagenumber++
+    </volumeimagefiles>
+    
     """
+    def create_volumeimagefiles_data(self):
+        
+        self.volumeimagefiles_data = f""
+        # Just the imagenumber need to be passed to next item
+        for item_key, item, in self.items.items():
+            this_data = item.get_item_volumeimagefiles_data()
+            self.volumeimagefiles_data = f"{self.volumeimagefiles_data}{this_data}"
+    
+    """
+    """    
     def update(self, app_index, row):
         self.row = row
         

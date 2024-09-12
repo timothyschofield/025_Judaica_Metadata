@@ -33,9 +33,11 @@ class Item:
         print(f"\tNew Item: book_index {book_index} {self.name}")
     
     """
+        
     """   
     def _create_xml(self):
         
+        # Header for the XML file
         return_data =  (
                     f"<rec>\n\n<itemid>{self.name}</itemid>\n\n<subscription>\n\t<unit>unpublished</unit>\n\t<country>uni</country>\n</subscription>\n\n"
                     f"<itemimagefiles>\n"
@@ -64,7 +66,8 @@ class Item:
             order = 0 + 1
             image_number =  0 + 0 + 1
         
-        
+        # self._create_xml_line
+        # Create lines for the regular non-NISC metadata
         for image_name, (book_index, row), in self.rows.items():
             
             colour = row["colour"]
@@ -93,10 +96,8 @@ class Item:
                 
             this_line = f"<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{orderlabel_tag}{colour_tab}{page_type_1_tab}{page_type_2_tab}"  
             
-            
             #######################
             # illustration_type_1 to illustration_type_5 and instances_of_1 toinstances_of_5
-            
             all_illustration_type = ""
             for i in range(1, 6):
                 
@@ -118,12 +119,7 @@ class Item:
             this_line = f"{this_line}{all_illustration_type}"
             
             #######################
-            """
-            translation = row["translation"]
-            if type(translation) == str: 
-                this_line = f"{this_line}<translation>{translation}</translation>"
-            """
-            
+
             # Wrap the line in tags for the image line
             return_data = f"{return_data}<itemimage>\n\t{this_line}\n</itemimage>\n" 
             
@@ -131,9 +127,8 @@ class Item:
             image_number = image_number + 1
             # end of for each image line
         
-        # list of unique illustration types for rec search metadata
+        # list of unique illustration types used in rec_search metadata
         self.illustration_type_list = list(set(self.illustration_type_list))
-        
         
         # After all the non-NISC lines written
         # We write the back_part - if there is a back_part
@@ -141,8 +136,13 @@ class Item:
             returned_backpart = self.nisc_data.create_xml_back_part(order, image_number)
             return_data = f"{return_data}{returned_backpart}"
         
-        
         return_data = f"{return_data}</itemimagefiles>"
+        
+        
+        # <volumeimagefiles> section goes here
+        # and contains info on ALL items in the Volume
+        # so item001.xml contains info on item002.xml etc.
+        # So must be collected BEFORE all Items _create_xml methods
         
         return_data = f"{return_data}{self._create_rec_search_xml()}"
 

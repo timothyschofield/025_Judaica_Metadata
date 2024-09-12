@@ -66,7 +66,7 @@ class NISC:
             # second_part and back_part
             
             # If there is a second_part can we assume it is always 4 in length? As far as all the batches go this is true
-            # If there is a second_part are always called 000-0003L and 000-0004R? As far as all the batches go this is true
+            # If there is a back_part are always called 000-0003L and 000-0004R? As far as all the batches go this is true
             
             # For the two 000-0003L and 000-0004R NISC items that have to be written 
             # at the bottom of the non-NISC lines
@@ -78,6 +78,7 @@ class NISC:
             # print(f"\t\tbook_index {book_index} {image_name} part 2")
         
     """
+        Writes the back_part of NISC
         Called at the bottom of the Item _create_xml method
     """
     def create_xml_back_part(self, order, image_number):
@@ -94,7 +95,7 @@ class NISC:
         return return_data
         
     """  
-        Write  first_part and second_part of NISC
+        Write first_part and second_part of NISC
     """ 
     def create_xml(self):
     
@@ -141,6 +142,8 @@ class NISC:
         page_type_2_tab = f""
         if type(page_type_2) == str:
             page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
+        
+        # parameterise itemimagefile1 and itemimage?
         
         return_data =  (
                         f"<itemimage>\n"
