@@ -47,7 +47,6 @@ class Book:
         else:
             print("****self.nisc_data was None****")
         
-        
         for item_key, item, in self.items.items():
             item.write_xml(output_path=self.output_path)
 

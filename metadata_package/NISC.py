@@ -28,6 +28,8 @@ class NISC:
         self.first_part = dict()  
         self.second_part = dict()
         
+        # For the two 000-0003L and 000-0004R NISC items that have to be written 
+        # at the bottom of the non-NISC lines
         self.back_part = dict()
         
         self.output_path = None   
@@ -52,7 +54,8 @@ class NISC:
 
         image_name = Path(row["Image name"]).stem
         
-        # The only distinction I can think of between first_part and second_part is 
+        # e.g. uni-ucl-jud-0015052-001-0001L
+        # The only distinction I can think of between first_part and second_part is
         # that first_part images contain four zeros in the final section like "0000S" as opposed to three zeros like "0003L"
         end_bit = image_name.split("-")[-1]
         if "0000" in end_bit:
@@ -60,26 +63,38 @@ class NISC:
             self.first_part[image_name] = (book_index, row)
             # print(f"\t\tbook_index {book_index} {image_name} part 1")
         else:
-            # second_part
+            # second_part and back_part
             
-            # self.back_part in here
-            # If there is a second_part can we assume it is always 4 in length?
-            # As far as all the batches go this is true
-            # If there is a second_part are always called 000-0003L and 000-0004R? - why not just use that?
-            # As far as all the batches go this is true
+            # If there is a second_part can we assume it is always 4 in length? As far as all the batches go this is true
+            # If there is a second_part are always called 000-0003L and 000-0004R? As far as all the batches go this is true
             
-            self.second_part[image_name] = (book_index, row)
+            # For the two 000-0003L and 000-0004R NISC items that have to be written 
+            # at the bottom of the non-NISC lines
+            # This feels very arbitrary and fragile
+            if end_bit == "0003L" or end_bit == "0004R":
+                self.back_part[image_name] = (book_index, row)
+            else:
+                self.second_part[image_name] = (book_index, row)
             # print(f"\t\tbook_index {book_index} {image_name} part 2")
         
     """
+    """
+    
+    """  
+        Write  first_part and second_part of NISC
     """ 
     def create_xml(self):
     
         return_data = f""
         image_number = 1
         order = 0
+        # Write first_part
         for image_name, (book_index, row), in self.first_part.items():
         
+            this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
+            return_data =  f"{return_data}{this_line}"        
+        
+            """
             colour = row["colour"]
             colour_tab = f""
             if type(colour) == str:
@@ -101,12 +116,19 @@ class NISC:
                             f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
                             f"</itemimage>\n"
                         )
+            """
+            
             image_number = image_number + 1
 
 
         order = 1
+        # Write second_part
         for image_name, (book_index, row), in self.second_part.items():
             
+            this_line = self._create_xml_line(image_name, book_index, row, order, image_number)
+            return_data =  f"{return_data}{this_line}"
+                            
+            """
             colour = row["colour"]
             colour_tab = f""
             if type(colour) == str:
@@ -128,12 +150,52 @@ class NISC:
                             f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
                             f"</itemimage>\n"
                         )
+            """
+            
             image_number = image_number + 1
             order = order + 1
 
-
-
-
-
         return return_data
+    
+    """
+    """
+    def _create_xml_line(self, image_name, book_index, row, order, image_number):
+        
+        colour = row["colour"]
+        colour_tab = f""
+        if type(colour) == str:
+            colour_tab = f"<colour>{colour}</colour>"
+
+        page_type_1 = row["Page_type_1"] 
+        if type(page_type_1) == str:
+            page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+        else:
+            page_type_1_tab = f"<pagetype>None</pagetype>"                   
+        
+        page_type_2 = row["Page_type_2"] 
+        page_type_2_tab = f""
+        if type(page_type_2) == str:
+            page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
+        
+        return_data =  (
+                        f"<itemimage>\n"
+                        f"\t<itemimagefile1>{image_name}</itemimagefile1><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
+                        f"</itemimage>\n"
+                       )
+        
+        return return_data
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
     

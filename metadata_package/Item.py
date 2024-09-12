@@ -44,6 +44,8 @@ class Item:
         # Writes a NISC item folder and ocr folder but no XML written
         # If it exists at all - sometimes there is no NISC data part 1 or part 2!
         if self.nisc_data is not None:
+            
+            # Writes all the NISC XML
             return_data = f"{return_data}{self.nisc_data.create_xml()}"
         
             # Now the main image non NISC lines
@@ -58,6 +60,7 @@ class Item:
             # Jessica says the image_number resetting for every item is the correct way
             image_number =  len_first_part + len_second_part + 1
         else:
+            # If no NISC data
             order = 0 + 1
             image_number =  0 + 0 + 1
         
@@ -132,7 +135,9 @@ class Item:
         self.illustration_type_list = list(set(self.illustration_type_list))
         
         
-        # back_part here?
+        # After all the non-NISC lines written
+        # We write the back_part - if there is a back_part
+        
         
         
         

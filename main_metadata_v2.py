@@ -62,7 +62,7 @@ re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Bat
 
 re_search_input_path = Path(f"{input_folder}/{re_search_input_file}")
 
-output_path = Path(f"metadata_output/judaica_xml_{get_file_timestamp()}")
+output_path = Path(f"metadata_output/judaica_xml_NEW_{get_file_timestamp()}")
 
 if os.path.exists(input_path) != True:
     print(f"ERROR: {input_path} file does not exits")

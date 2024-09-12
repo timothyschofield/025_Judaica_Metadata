@@ -30,15 +30,10 @@ class App:
         for app_index, row in self.df_metadata.iloc[0:].iterrows(): 
             self.update(app_index, row)
 
-        print("##### WRITING XML #####")
-        self._write_xml()
-
-    """
-    """    
-    def _write_xml(self):
+        print("##### NOW WRITING XML #####")
         for book_key, book, in self.books.items():
             book.write_xml(output_path=self.output_path)
-            
+      
     """
     """         
     def update(self, app_index, row):        
