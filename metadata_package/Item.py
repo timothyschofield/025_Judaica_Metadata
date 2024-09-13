@@ -30,6 +30,9 @@ class Item:
         # Collect all the illustration_types in this Item for the rec_search metadata
         self.illustration_type_list = []
         
+        # Only ever used for volumem info if Item is 001
+        self.order_for_volume_info_back_part = 0
+        
         self.volumeimagefiles_data = None
         print(f"\tNew Item: book_index {book_index} {self.name}")
     
@@ -78,7 +81,7 @@ class Item:
                 
                 order = order + 1
                 image_number = image_number + 1
-        
+                
         else:
             # None-001 Items delt with here
             order = 3
@@ -94,6 +97,9 @@ class Item:
                 order = order + 1
                 image_number = image_number + 1   
 
+        # print(f"From get_item_volumeimagefiles_data order {order}")
+        self.order_for_volume_info_back_part = order # only ever used for volumeinfo backpart 001
+        
         return (f"{return_data}\n", image_number)
     
     """
@@ -153,7 +159,8 @@ class Item:
         # We write the back_part - if there is a back_part
         if self.nisc_data is not None:
             image_file_tag = "itemimagefile1"
-            image_line_tag = "itemimage"  
+            image_line_tag = "itemimage"
+            
             returned_backpart = self.nisc_data.create_xml_back_part(order, image_number, image_file_tag, image_line_tag)
             return_data = f"{return_data}{returned_backpart}"
         

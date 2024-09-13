@@ -113,7 +113,8 @@ class Book:
         if item001.nisc_data is not None:
             image_file_tag = "volumeimagefile"
             image_line_tag = "volumeimage"  
-            order = 999
+            order = item001.order_for_volume_info_back_part
+            # print(f"#################### order: {order}")     # 0 because we are collecting volumeimage this before the rest of the iteminfo is collected
             returned_backpart = item001.nisc_data.create_xml_back_part(order, image_number, image_file_tag, image_line_tag)
             
         return returned_backpart
