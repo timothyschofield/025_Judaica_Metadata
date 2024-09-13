@@ -98,7 +98,7 @@ class Item:
     
     """
         Create XML for itemimagefiles
-    """ 
+    """
     def _create_xml(self):
         
         # Header for the XML file
@@ -170,6 +170,7 @@ class Item:
         return return_data
     
     """
+        For both itemimages and volimages
     """
     def _create_xml_line(self, image_name, book_index, row, order, image_number, image_file_tag, image_line_tag):
         

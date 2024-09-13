@@ -93,12 +93,33 @@ class Book:
             this_data, image_number = item.get_item_volumeimagefiles_data(image_number)
             volumeimagefiles_data = f"{volumeimagefiles_data}{this_data}"
     
+        back_part_001 = self.create_back_part_volumeimages_Item_001(image_number)
+        volumeimagefiles_data = f"{volumeimagefiles_data}{back_part_001}"
+    
         volumeimagefiles_data = f"{volumeimagefiles_data}\n</volumeimagefiles>\n"
     
         return volumeimagefiles_data
     
     """
+        Create NISC back_part for volumeimagefile
+        Only called with NISC info for Item 001
     """    
+    def create_back_part_volumeimages_Item_001(self, image_number):
+        
+        item001_key = list(self.items.keys())[0]
+        item001 = self.items[item001_key]
+        
+        returned_backpart = f""
+        if item001.nisc_data is not None:
+            image_file_tag = "volumeimagefile"
+            image_line_tag = "volumeimage"  
+            order = 999
+            returned_backpart = item001.nisc_data.create_xml_back_part(order, image_number, image_file_tag, image_line_tag)
+            
+        return returned_backpart
+    
+    """
+    """
     def update(self, app_index, row):
         self.row = row
         
