@@ -35,11 +35,9 @@ class Item:
     
     """
         Create XML for volumeimagefiles
+        Collect volume information for all Items in a Book
     """    
-    
-    # need to pass in image_number, but order number, apart from 001, always starts at 3
     def get_item_volumeimagefiles_data(self, image_number):
-        
         
         return_data = f""
         end_bit = self.name.split("-")[-1]
@@ -95,8 +93,6 @@ class Item:
                 
                 order = order + 1
                 image_number = image_number + 1   
-
-
 
         return (f"{return_data}\n", image_number)
     
@@ -156,17 +152,16 @@ class Item:
         # After all the non-NISC lines written
         # We write the back_part - if there is a back_part
         if self.nisc_data is not None:
-            returned_backpart = self.nisc_data.create_xml_back_part(order, image_number)
+            image_file_tag = "itemimagefile1"
+            image_line_tag = "itemimage"  
+            returned_backpart = self.nisc_data.create_xml_back_part(order, image_number, image_file_tag, image_line_tag)
             return_data = f"{return_data}{returned_backpart}"
         
         # right at the end
         return_data = f"{return_data}</itemimagefiles>"
         
         
-        # <volumeimagefiles> section goes here
-        # and contains info on ALL items in the Volume
-        # so item001.xml contains info on item002.xml etc.
-        # So must be collected BEFORE all Items _create_xml methods
+        # <volumeimagefiles> contains info on ALL items in the Book
         return_data = f"{return_data}{self.volumeimagefiles_data}"
         
         

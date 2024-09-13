@@ -84,7 +84,6 @@ df_rec_search = pd.read_csv(re_search_input_path)
 df_rec_search.set_index("Item name", inplace=True)
 
 
-
 app1 = App(df_metadata=df_metadata, df_rec_search=df_rec_search, output_path=output_path)
 
 
