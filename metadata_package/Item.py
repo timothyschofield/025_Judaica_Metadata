@@ -36,10 +36,13 @@ class Item:
     """
         Create XML for volumeimagefiles
     """    
+    
+    # need to pass in image_number, but order number, apart from 001, always starts at 3
     def get_item_volumeimagefiles_data(self):
         
         return_data = f""
         end_bit = self.name.split("-")[-1]
+        # Deals with 001 Item
         if end_bit == "001":
             # Writes a NISC item folder and ocr folder but no XML written
             # If it exists at all - sometimes there is no NISC data part 1 or part 2!
@@ -65,8 +68,26 @@ class Item:
                 # If no NISC data
                 order = 0 + 1
                 image_number =  0 + 0 + 1  
+                
+            # Create lines for the regular non-NISC 001 metadata
+            for image_name, (book_index, row), in self.rows.items():
+                
+                image_file_tag = "volumeimagefile"
+                image_line_tag = "volumeimage"
+                this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
+                return_data = f"{return_data}{this_line}"
+                
+                order = order + 1
+                image_number = image_number + 1
+        
         else:
+            # None-001 Items delt with here
+            order = 3
             pass   
+            
+            
+            
+            
             
             
         return f"{return_data}\n"
