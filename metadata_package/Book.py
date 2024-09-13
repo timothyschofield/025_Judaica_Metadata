@@ -39,11 +39,11 @@ class Book:
         We iterate through them twice.
         
         1) The first iteration we are collecting volumeimagefiles data.
-        This is a complete collection of all image files in a Book 
+        This is a complete collection of all image files data in a Book 
         
-        2) This volumeimagefiles data is then inserted into the middle of the XML for each individual item
-        on the second iteration
-        
+        2) On the seconds iteration XML data for each individual Item is generated. 
+            The exact same volumeimagefiles data (collected above) is inserted into the middle of each items' XML
+
     """       
     def write_xml(self, output_path):
         
@@ -88,7 +88,6 @@ class Book:
         for item_key, item, in self.items.items():
             
             this_data = item.get_item_volumeimagefiles_data()
-            
             volumeimagefiles_data = f"{volumeimagefiles_data}{this_data}"
     
         volumeimagefiles_data = f"{volumeimagefiles_data}\n</volumeimagefiles>\n"
