@@ -34,12 +34,45 @@ class Item:
         print(f"\tNew Item: book_index {book_index} {self.name}")
     
     """
+        Create XML for volumeimagefiles
     """    
     def get_item_volumeimagefiles_data(self):
         
-        return f"{self.name}\n"
+        return_data = f""
+        end_bit = self.name.split("-")[-1]
+        if end_bit == "001":
+            # Writes a NISC item folder and ocr folder but no XML written
+            # If it exists at all - sometimes there is no NISC data part 1 or part 2!
+            if self.nisc_data is not None:
+                
+                # Writes all the NISC XML
+                image_file_tag = "volumeimagefile"
+                image_line_tag = "volumeimage"
+                return_data = f"{return_data}{self.nisc_data.create_xml(image_file_tag, image_line_tag)}"
+            
+                # Now the main image non NISC lines
+                len_first_part = len(self.nisc_data.first_part)
+                len_second_part = len(self.nisc_data.second_part)
+            
+                # always counts on from order in the NISC
+                order = len_second_part + 1
+                
+                # The image_number resets with each new Item or just counts on through Items in a Book
+                # In which case use book_index
+                # Jessica says the image_number resetting for every item is the correct way
+                image_number =  len_first_part + len_second_part + 1
+            else:
+                # If no NISC data
+                order = 0 + 1
+                image_number =  0 + 0 + 1  
+        else:
+            pass   
+            
+            
+        return f"{return_data}\n"
     
     """
+        Create XML for itemimagefiles
     """ 
     def _create_xml(self):
         
@@ -54,7 +87,9 @@ class Item:
         if self.nisc_data is not None:
             
             # Writes all the NISC XML
-            return_data = f"{return_data}{self.nisc_data.create_xml()}"
+            image_file_tag = "itemimagefile1"
+            image_line_tag = "itemimage"
+            return_data = f"{return_data}{self.nisc_data.create_xml(image_file_tag, image_line_tag)}"
         
             # Now the main image non NISC lines
             len_first_part = len(self.nisc_data.first_part)
@@ -95,6 +130,7 @@ class Item:
             returned_backpart = self.nisc_data.create_xml_back_part(order, image_number)
             return_data = f"{return_data}{returned_backpart}"
         
+        # right at the end
         return_data = f"{return_data}</itemimagefiles>"
         
         

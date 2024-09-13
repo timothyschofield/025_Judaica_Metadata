@@ -80,7 +80,7 @@ class NISC:
     """  
         Write first_part and second_part of NISC
     """ 
-    def create_xml(self):
+    def create_xml(self, image_file_tag, image_line_tag):
     
         return_data = f""
         image_number = 1
@@ -88,8 +88,8 @@ class NISC:
         # Write first_part
         for image_name, (book_index, row), in self.first_part.items():
         
-            image_file_tag = "itemimagefile1"
-            image_line_tag = "itemimage"
+            # image_file_tag = "itemimagefile1"
+            # image_line_tag = "itemimage"
             this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
             return_data =  f"{return_data}{this_line}"        
         
@@ -99,8 +99,8 @@ class NISC:
         # Write second_part
         for image_name, (book_index, row), in self.second_part.items():
             
-            image_file_tag = "itemimagefile1"
-            image_line_tag = "itemimage"            
+            # image_file_tag = "itemimagefile1"
+            # image_line_tag = "itemimage"            
             this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
             return_data =  f"{return_data}{this_line}"
                             
