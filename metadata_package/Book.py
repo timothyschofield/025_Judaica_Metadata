@@ -81,13 +81,16 @@ class Book:
                 000-0004R order = NISC001, imagenumber++
     </volumeimagefiles>
     
+    volumeimagefiles_data for all Items in this Book
+    image_number gets passed to subsequent Items in a Book so their image_number can continue incrementing
     """
     def create_volumeimagefiles_data(self):
         
         volumeimagefiles_data = f"\n\n<volumeimagefiles>\n\n"
+        image_number = 1
         for item_key, item, in self.items.items():
             
-            this_data = item.get_item_volumeimagefiles_data()
+            this_data, image_number = item.get_item_volumeimagefiles_data(image_number)
             volumeimagefiles_data = f"{volumeimagefiles_data}{this_data}"
     
         volumeimagefiles_data = f"{volumeimagefiles_data}\n</volumeimagefiles>\n"

@@ -38,7 +38,8 @@ class Item:
     """    
     
     # need to pass in image_number, but order number, apart from 001, always starts at 3
-    def get_item_volumeimagefiles_data(self):
+    def get_item_volumeimagefiles_data(self, image_number):
+        
         
         return_data = f""
         end_bit = self.name.split("-")[-1]
@@ -83,14 +84,21 @@ class Item:
         else:
             # None-001 Items delt with here
             order = 3
-            pass   
             
-            
-            
-            
-            
-            
-        return f"{return_data}\n"
+             # Create lines for the regular non-NISC non-001 metadata
+            for image_name, (book_index, row), in self.rows.items():
+                
+                image_file_tag = "volumeimagefile"
+                image_line_tag = "volumeimage"
+                this_line = self._create_xml_line(image_name, book_index, row, order, image_number, image_file_tag, image_line_tag)
+                return_data = f"{return_data}{this_line}"
+                
+                order = order + 1
+                image_number = image_number + 1   
+
+
+
+        return (f"{return_data}\n", image_number)
     
     """
         Create XML for itemimagefiles
