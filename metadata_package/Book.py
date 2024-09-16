@@ -34,15 +34,15 @@ class Book:
         print(f"New Book: book_index {self.book_index} {self.name}")
         
     """
-        All Items exist at this point
+        All Item objects exist at this point
         
         We iterate through them twice.
         
         1) The first iteration we are collecting volumeimagefiles data.
-        This is a complete collection of all image files data in a Book 
+        This is a complete collection of all image files data from all Items in a Book 
         
         2) On the seconds iteration XML data for each individual Item is generated. 
-            The exact same volumeimagefiles data (collected above) is inserted into the middle of each items' XML
+            The exact same volumeimagefiles data (collected above) is inserted into the middle of each Item's XML
 
     """       
     def write_xml(self, output_path):
@@ -66,7 +66,7 @@ class Book:
     <volumeimagefiles>
         NISC001
             lines001
-                order = ???, imagenumber++
+                order = 0, imagenumber++
                 
             lines002
                 order = 3, imagenumber++

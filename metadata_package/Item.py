@@ -82,6 +82,9 @@ class Item:
                 order = order + 1
                 image_number = image_number + 1
                 
+            # or should it be here - does it matter? - its only used for 001 anyway
+            # print(f"From get_item_volumeimagefiles_data order {order}")
+            # self.order_for_volume_info_back_part = order   
         else:
             # None-001 Items delt with here
             order = 3
@@ -97,6 +100,7 @@ class Item:
                 order = order + 1
                 image_number = image_number + 1   
 
+        # Should it be here?
         # print(f"From get_item_volumeimagefiles_data order {order}")
         self.order_for_volume_info_back_part = order # only ever used for volumeinfo backpart 001
         
