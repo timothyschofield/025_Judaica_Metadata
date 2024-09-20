@@ -57,7 +57,11 @@ class Book:
         else:
             print("****self.nisc_data was None****")
         
-        volumeimagefiles_data = self.create_volumeimagefiles_data()
+        if len(self.items) == 1:
+            volumeimagefiles_data = f""
+            print("len is 1")
+        else:
+            volumeimagefiles_data = self.create_volumeimagefiles_data()
         
         for item_key, item, in self.items.items():
             item.write_xml(output_path=self.output_path, volumeimagefiles_data=volumeimagefiles_data)
