@@ -57,11 +57,34 @@ class NISC:
         # e.g. uni-ucl-jud-0015052-001-0001L
         # The only distinction I can think of between first_part and second_part is
         # that first_part images contain four zeros in the final section like "0000S" as opposed to three zeros like "0003L"
+        """
+        the complexity arises because the client wants the xml to reflect the physical structure of the volumn - naturaly -
+        and this does not conform to the image numbering convention
+
+        These go as the last NISC item(s)
+        000-0001L and 000-0002R are Front endpaper(s) 	- if there are more than one
+        000-0000U is Front endpaper					- if there is only one its called "U"
+
+
+        These go after the last non-NISC item(s)
+        000-0003L and 0000-000R and Back endpaper(s) 	- if there are more than one
+        000-0000V is Back endpaper				- if there is only one its called "V"
+        """
         end_bit = image_name.split("-")[-1]
+        
         if "0000" in end_bit:
             # first_part
-            self.first_part[image_name] = (book_index, row)
-            # print(f"\t\tbook_index {book_index} {image_name} part 1")
+            
+            if end_bit == "0000U":
+                # a single Front endpart
+                self.second_part[image_name] = (book_index, row)
+            else:
+                if end_bit == "0000V":
+                    # a single Back endpart
+                    self.back_part[image_name] = (book_index, row)
+                else:
+                    self.first_part[image_name] = (book_index, row)
+                    # print(f"\t\tbook_index {book_index} {image_name} part 1")
         else:
             # second_part and back_part
             
