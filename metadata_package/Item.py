@@ -224,8 +224,18 @@ class Item:
             
             if type(illustration_type) == str:
             
-                if math.isnan(num_instances_of) == False: num_instances_of = int(num_instances_of)
-                else: num_instances_of = 1 # If some one has set the illustration type but forgotten to set num_instances_of to 1
+                #print(f"Here ****{num_instances_of}****")
+                if type(num_instances_of) == str:
+                    if num_instances_of.isnumeric() == False:
+                        num_instances_of = 1 # What to do?
+                    
+                    num_instances_of = int(num_instances_of)
+                    
+                # math.isnan can't deal with strings
+                if math.isnan(num_instances_of) == False: 
+                    num_instances_of = int(num_instances_of)
+                else: 
+                    num_instances_of = 1 # If some one has set the illustration type but forgotten to set num_instances_of to 1
                 
                 illustration_type = f'<pagecontent number="{num_instances_of}">{illustration_type}</pagecontent>'
                     
@@ -307,7 +317,12 @@ class Item:
         
         source_library = this_line["<source_library>"] 
         source_collection = this_line["<source_collection>"]
-        language = decimal_encode_for_xml(this_line["<language>"]) # Latin & Hebrew 
+        
+        language = this_line["<language>"]
+        if type(language) == str:
+            language = decimal_encode_for_xml(this_line["<language>"]) # Latin & Hebrew 
+        else:
+            language = "unknown"
     
         illustrations_tag = f""
         if len(self.illustration_type_list) != 0:

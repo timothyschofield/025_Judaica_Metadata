@@ -14,6 +14,10 @@ def log_message(message):
 import html
 # You do not pass XML in here, just data you want to be carried in XML
 def decimal_encode_for_xml(data_in):
+  
+  # print(f"In decimal_encode_for_xml ****{data_in}****")
+  
+  
   html_escaped = html.escape(data_in) # this will turn & into &amp;
 
   binary_encoded = html_escaped.encode('ascii', 'xmlcharrefreplace') # this turns ü into &#252;

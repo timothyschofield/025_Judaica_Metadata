@@ -110,6 +110,9 @@ class Book:
     """    
     def create_back_part_volumeimages_Item_001(self, image_number):
         
+        # empty keys - problem was underscores in image name of 0050296
+        # print(f"{self.name} The keys:{list(self.items.keys())}")
+        
         item001_key = list(self.items.keys())[0]
         item001 = self.items[item001_key]
         
