@@ -149,25 +149,27 @@ class NISC:
     """
     def _create_xml_line(self, image_name, book_index, row, order, image_number, image_file_tag, image_line_tag):
         
-        colour = row["colour"]
+        colour = row["Colour"] 
         colour_tab = f""
         if type(colour) == str:
             colour_tab = f"<colour>{colour}</colour>"
 
         page_type_1 = row["Page_type_1"] 
         if type(page_type_1) == str:
-            page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            page_type_content = page_type_1
+            
+            page_type_2 = row["Page_type_2"]
+            if type(page_type_2) == str:
+                page_type_content = f"{page_type_content}|{page_type_2}"
+            
+            page_type_1_tab = f"<pagetype>{page_type_content}</pagetype>"
         else:
-            page_type_1_tab = f"<pagetype>None</pagetype>"                   
-        
-        page_type_2 = row["Page_type_2"] 
-        page_type_2_tab = f""
-        if type(page_type_2) == str:
-            page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>"
-        
+            page_type_1_tab = f"<pagetype>None</pagetype>" 
+
+
         return_data =  (
                         f"<{image_line_tag}>\n"
-                        f"\t<{image_file_tag}>{image_name}</{image_file_tag}><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}{page_type_2_tab}\n"
+                        f"\t<{image_file_tag}>{image_name}</{image_file_tag}><order>{order}</order><imagenumber>{image_number}</imagenumber>{colour_tab}{page_type_1_tab}\n"
                         f"</{image_line_tag}>\n"
                        )
         

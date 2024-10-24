@@ -185,7 +185,7 @@ class Item:
     """
     def _create_xml_line(self, image_name, book_index, row, order, image_number, image_file_tag, image_line_tag):
         
-        colour = row["colour"]
+        colour = row["Colour"]
         colour_tab = f""
         if type(colour) == str:
             colour_tab = f"<colour>{colour}</colour>"
@@ -193,23 +193,23 @@ class Item:
 
         page_type_1 = row["Page_type_1"] 
         if type(page_type_1) == str:
-            page_type_1_tab = f"<pagetype>{page_type_1}</pagetype>"
+            page_type_content = page_type_1
+            
+            page_type_2 = row["Page_type_2"]
+            if type(page_type_2) == str:
+                page_type_content = f"{page_type_content}|{page_type_2}"
+            
+            page_type_1_tab = f"<pagetype>{page_type_content}</pagetype>"
         else:
             page_type_1_tab = f"<pagetype>None</pagetype>"               
         
         
-        page_type_2 = row["Page_type_2"] 
-        page_type_2_tab = f""
-        if type(page_type_2) == str:
-            page_type_2_tab = f"<pagetype>{page_type_2}</pagetype>" 
-            
-            
-        page_number = row["Pagenumber"]
+        page_number = row["Page number"]
         orderlabel_tag = f""
         if type(page_number) == str:
             orderlabel_tag = f"<orderlabel>{page_number}</orderlabel>"    
             
-        this_line = f"<{image_file_tag}>{image_name}</{image_file_tag}><order>{order}</order><imagenumber>{image_number}</imagenumber>{orderlabel_tag}{colour_tab}{page_type_1_tab}{page_type_2_tab}"  
+        this_line = f"<{image_file_tag}>{image_name}</{image_file_tag}><order>{order}</order><imagenumber>{image_number}</imagenumber>{orderlabel_tag}{colour_tab}"  
         
         # illustration_type_1 to illustration_type_5 and instances_of_1 toinstances_of_5
         all_illustration_type = ""
@@ -241,7 +241,8 @@ class Item:
                     
                 all_illustration_type = f"{all_illustration_type}{illustration_type}"
         
-        this_line = f"{this_line}{all_illustration_type}"
+
+        this_line = f"{this_line}{all_illustration_type}{page_type_1_tab}" # {page_type_1_tab} moved from line 212 this_line = etc...
         
         # Wrap the line in tags for the image line
         return_data = f"<{image_line_tag}>\n\t{this_line}\n</{image_line_tag}>\n" 
@@ -257,9 +258,9 @@ class Item:
         
         title = decimal_encode_for_xml(this_line["<title>"])
         
-        author_main = this_line["<author_name>"]
-        author_corrected = this_line["<author_corrected>"]      # new
-        author_uninverted = this_line["<author_uninverted>"]    # new
+        author_main = decimal_encode_for_xml(this_line["<author_name>"])
+        author_corrected = decimal_encode_for_xml(this_line["<author_corrected>"])      # new
+        author_uninverted = decimal_encode_for_xml(this_line["<author_uninverted>"])    # new
            
         # shelfmark publisher_printer place_of_publication country_of_publication pagination
         # All of these have no tag if no value
@@ -291,7 +292,10 @@ class Item:
         #################################################################
                    
         imprint = this_line["<imprint>"]
-        if type(imprint)!= str: imprint = "unknown"   
+        imprint_tag = f""
+        if type(imprint) == str: 
+            imprint = decimal_encode_for_xml(imprint)
+            imprint_tag = f"<imprint>{imprint}</imprint>\n"
     
         startdate = this_line["<startdate>"]
         if type(startdate) == str:
@@ -356,7 +360,7 @@ class Item:
                         f"<enddate>{enddate}</enddate>\n"
                         f"<displaydate>{displaydate}</displaydate>\n"
                         
-                        f"<imprint>{imprint}</imprint>\n"
+                        f"{imprint_tag}"
                         
                         # shelfmark publisher_printer place_of_publication country_of_publication pagination
                         # All of these have no visible tag if no value
