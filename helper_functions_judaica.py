@@ -17,43 +17,17 @@ def decimal_encode_for_xml(data_in):
   
   # print(f"In decimal_encode_for_xml ****{data_in}****")
   
-  
   html_escaped = html.escape(data_in) # this will turn & into &amp;
 
-
-  html_escaped = html_escaped.replace("&amp;","&#38;") # Is this OK?
+  html_escaped = html_escaped.replace("&amp;","&#38;") # Is this OK? 2024-10-25
 
   binary_encoded = html_escaped.encode('ascii', 'xmlcharrefreplace') # this turns ü into &#252;
 
   non_binary = binary_encoded.decode("utf-8") # Gets rid of the leading 'b'
   
-  return non_binary
-
-
-
-
-# Stupid test
-def new_decimal_encode_for_xml(data_in):
-  
-  # print(f"In decimal_encode_for_xml ****{data_in}****")
-  
-  
-  html_escaped = html.escape(data_in) # this will turn & into &amp;
-
-  html_escaped = html_escaped.replace("&amp;","&#38;")
-
-  binary_encoded = html_escaped.encode('ascii', 'xmlcharrefreplace') # this turns ü into &#252;
-
-  non_binary = binary_encoded.decode("utf-8") # Gets rid of the leading 'b'
+  non_binary = non_binary.replace("&#x27;","&#39;") # Is this OK? 2024-10-25
   
   return non_binary
-
-
-
-
-
-
-
 
 import xml.etree.ElementTree as ET
 def validate_xml(xml_text):

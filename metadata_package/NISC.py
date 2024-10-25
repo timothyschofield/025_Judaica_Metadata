@@ -149,7 +149,7 @@ class NISC:
     """
     def _create_xml_line(self, image_name, book_index, row, order, image_number, image_file_tag, image_line_tag):
         
-        colour = row["Colour"] 
+        colour = row["colour"] 
         colour_tab = f""
         if type(colour) == str:
             colour_tab = f"<colour>{colour}</colour>"

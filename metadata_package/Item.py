@@ -185,7 +185,7 @@ class Item:
     """
     def _create_xml_line(self, image_name, book_index, row, order, image_number, image_file_tag, image_line_tag):
         
-        colour = row["Colour"]
+        colour = row["colour"]
         colour_tab = f""
         if type(colour) == str:
             colour_tab = f"<colour>{colour}</colour>"
@@ -204,7 +204,7 @@ class Item:
             page_type_1_tab = f"<pagetype>None</pagetype>"               
         
         
-        page_number = row["Page number"]
+        page_number = row["Pagenumber"]
         orderlabel_tag = f""
         if type(page_number) == str:
             orderlabel_tag = f"<orderlabel>{page_number}</orderlabel>"    
@@ -253,21 +253,38 @@ class Item:
     """
     def _create_rec_search_xml(self):
         
+        
+        print(f"_create_rec_search_xml {self.name}")
         this_line = self.df_rec_search.loc[self.name]
         pqid = this_line["<pqid>"]
+        print(f"**** Here ****")
+        
         
         title = decimal_encode_for_xml(this_line["<title>"])
         
-        author_main = decimal_encode_for_xml(this_line["<author_name>"])
-        author_corrected = decimal_encode_for_xml(this_line["<author_corrected>"])      # new
-        author_uninverted = decimal_encode_for_xml(this_line["<author_uninverted>"])    # new
+        author_main = this_line["<author_name>"]
+        if type(author_main) != str: author_main = f""
+        author_main = decimal_encode_for_xml(author_main)
+
+        author_corrected = this_line["<author_corrected>"]
+        if type(author_corrected) != str: author_corrected = f""
+        author_corrected = decimal_encode_for_xml(author_corrected)
+        # author_corrected = decimal_encode_for_xml(this_line["<author_corrected>"])    
+        
+        author_uninverted = this_line["<author_uninverted>"]
+        if type(author_uninverted) != str: author_uninverted = f""
+        author_uninverted = decimal_encode_for_xml(author_uninverted)    
+        # author_uninverted = decimal_encode_for_xml(this_line["<author_uninverted>"])   
            
+        
         # shelfmark publisher_printer place_of_publication country_of_publication pagination
         # All of these have no tag if no value
         publisher_printer = this_line["<publisher_printer>"]
         publisher_printer_tag = f""
         if type(publisher_printer) == str and publisher_printer != "":
+            publisher_printer = decimal_encode_for_xml(publisher_printer)
             publisher_printer_tag = f"<publisher_printer>{publisher_printer}</publisher_printer>\n" 
+
 
         place_of_publication = this_line["<place_of_publication>"]
         place_of_publication_tag = f""

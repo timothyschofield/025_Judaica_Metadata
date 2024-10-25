@@ -48,15 +48,15 @@ from metadata_package import App
 
 input_folder = Path(f"metadata_input")
 
-# 0050296
+# 0050296 
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - BENCHMARK.csv")
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807-2.csv")
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807-3.csv")
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807-4.csv")
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240809.csv") # compilation
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") 
-input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # 2024-10-11
-
+# input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # 2024-10-11
+input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv")
 
 input_path = Path(f"{input_folder}/{input_file}")
 
@@ -66,12 +66,12 @@ input_path = Path(f"{input_folder}/{input_file}")
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240807-4.csv")
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240809.csv") # compilation
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") 
-re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # 2024-10-11
-
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # 2024-10-11
+re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv")
 
 re_search_input_path = Path(f"{input_folder}/{re_search_input_file}")
 
-output_path = Path(f"metadata_output/judaica_xml_{get_file_timestamp()}")
+output_path = Path(f"metadata_output/judaica_xml_20241025_{get_file_timestamp()}")
 
 if os.path.exists(input_path) != True:
     print(f"ERROR: {input_path} file does not exits")
