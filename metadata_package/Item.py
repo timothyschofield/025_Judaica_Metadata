@@ -207,6 +207,8 @@ class Item:
         page_number = row["Pagenumber"]
         orderlabel_tag = f""
         if type(page_number) == str:
+            # decimal_encode_for_xml
+            page_number = decimal_encode_for_xml(page_number)  # New 2024-11-12
             orderlabel_tag = f"<orderlabel>{page_number}</orderlabel>"    
             
         this_line = f"<{image_file_tag}>{image_name}</{image_file_tag}><order>{order}</order><imagenumber>{image_number}</imagenumber>{orderlabel_tag}{colour_tab}"  

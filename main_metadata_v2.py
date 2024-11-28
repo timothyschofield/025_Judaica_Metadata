@@ -56,7 +56,12 @@ input_folder = Path(f"metadata_input")
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240809.csv") # compilation
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") 
 # input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # 2024-10-11
-input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv")
+# input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv")
+# input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241108.csv")
+# input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # resupply version 2 2024-11-25
+# input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") # resupply version 2 2024-11-28
+input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv") # resupply version 2 2024-11-28
+
 
 input_path = Path(f"{input_folder}/{input_file}")
 
@@ -67,7 +72,12 @@ input_path = Path(f"{input_folder}/{input_file}")
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240809.csv") # compilation
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") 
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # 2024-10-11
-re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv")
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv")
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241108.csv")
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv")  # resupply version 2 2024-11-25
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") # resupply version 2 2024-11-28
+re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv") # resupply version 2 2024-11-28
+
 
 re_search_input_path = Path(f"{input_folder}/{re_search_input_file}")
 
