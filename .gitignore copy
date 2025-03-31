@@ -1,0 +1,7 @@
+__pycache__/
+_00_Judaica_Notes/
+back/
+error_logs/
+metadata_input/
+metadata_output/
+metadata_package/__pycache__/

@@ -94,7 +94,7 @@ class NISC:
             # For the two 000-0003L and 000-0004R NISC items that have to be written 
             # at the bottom of the non-NISC lines
             # This feels very arbitrary and fragile
-            if end_bit == "0003L" or end_bit == "0004R":
+            if (end_bit == "0003L" or end_bit == "0004R") or (end_bit == "0003R" or end_bit == "0004L"): # R to L or L to R
                 self.back_part[image_name] = (book_index, row)
             else:
                 self.second_part[image_name] = (book_index, row)

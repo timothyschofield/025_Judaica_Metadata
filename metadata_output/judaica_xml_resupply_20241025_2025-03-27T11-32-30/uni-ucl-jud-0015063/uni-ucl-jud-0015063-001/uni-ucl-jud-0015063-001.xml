@@ -1,0 +1,1532 @@
+<rec>
+
+<itemid>uni-ucl-jud-0015063-001</itemid>
+
+<subscription>
+	<unit>unpublished</unit>
+	<country>uni</country>
+</subscription>
+
+<itemimagefiles>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0000B</itemimagefile1><order>0</order><imagenumber>1</imagenumber><colour>colour</colour><pagetype>Back board</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0000F</itemimagefile1><order>0</order><imagenumber>2</imagenumber><colour>colour</colour><pagetype>Front board</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0000S</itemimagefile1><order>0</order><imagenumber>3</imagenumber><colour>colour</colour><pagetype>Spine</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0000X</itemimagefile1><order>0</order><imagenumber>4</imagenumber><colour>colour</colour><pagetype>Head edge</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0000Y</itemimagefile1><order>0</order><imagenumber>5</imagenumber><colour>colour</colour><pagetype>Tail edge</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0000Z</itemimagefile1><order>0</order><imagenumber>6</imagenumber><colour>colour</colour><pagetype>Foredge</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0001L</itemimagefile1><order>1</order><imagenumber>7</imagenumber><colour>monochrome</colour><pagetype>Front endpaper</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0002R</itemimagefile1><order>2</order><imagenumber>8</imagenumber><colour>monochrome</colour><pagetype>Front endpaper</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0001L</itemimagefile1><order>3</order><imagenumber>9</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0002R</itemimagefile1><order>4</order><imagenumber>10</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0003L</itemimagefile1><order>5</order><imagenumber>11</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0004R</itemimagefile1><order>6</order><imagenumber>12</imagenumber><colour>monochrome</colour><pagecontent number="1">Printers Mark – title page</pagecontent><pagetype>Title page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0005L</itemimagefile1><order>7</order><imagenumber>13</imagenumber><colour>monochrome</colour><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0006R</itemimagefile1><order>8</order><imagenumber>14</imagenumber><orderlabel>* ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0007L</itemimagefile1><order>9</order><imagenumber>15</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0008R</itemimagefile1><order>10</order><imagenumber>16</imagenumber><orderlabel>* iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0009L</itemimagefile1><order>11</order><imagenumber>17</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0010R</itemimagefile1><order>12</order><imagenumber>18</imagenumber><orderlabel>* iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0011L</itemimagefile1><order>13</order><imagenumber>19</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0012R</itemimagefile1><order>14</order><imagenumber>20</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0013L</itemimagefile1><order>15</order><imagenumber>21</imagenumber><colour>monochrome</colour><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0014R</itemimagefile1><order>16</order><imagenumber>22</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0015L</itemimagefile1><order>17</order><imagenumber>23</imagenumber><colour>monochrome</colour><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0016R</itemimagefile1><order>18</order><imagenumber>24</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0017L</itemimagefile1><order>19</order><imagenumber>25</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0018R</itemimagefile1><order>20</order><imagenumber>26</imagenumber><colour>monochrome</colour><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0019L</itemimagefile1><order>21</order><imagenumber>27</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0020R</itemimagefile1><order>22</order><imagenumber>28</imagenumber><orderlabel>**</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0021L</itemimagefile1><order>23</order><imagenumber>29</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0022R</itemimagefile1><order>24</order><imagenumber>30</imagenumber><orderlabel>** ii</orderlabel><colour>monochrome</colour><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0023L</itemimagefile1><order>25</order><imagenumber>31</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0024R</itemimagefile1><order>26</order><imagenumber>32</imagenumber><orderlabel>** iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0025L</itemimagefile1><order>27</order><imagenumber>33</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0026R</itemimagefile1><order>28</order><imagenumber>34</imagenumber><orderlabel>** iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0027L</itemimagefile1><order>29</order><imagenumber>35</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0028R</itemimagefile1><order>30</order><imagenumber>36</imagenumber><colour>monochrome</colour><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0029L</itemimagefile1><order>31</order><imagenumber>37</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0030R</itemimagefile1><order>32</order><imagenumber>38</imagenumber><colour>monochrome</colour><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0031L</itemimagefile1><order>33</order><imagenumber>39</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0032R</itemimagefile1><order>34</order><imagenumber>40</imagenumber><colour>monochrome</colour><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0033L</itemimagefile1><order>35</order><imagenumber>41</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Index page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0034R</itemimagefile1><order>36</order><imagenumber>42</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0035L</itemimagefile1><order>37</order><imagenumber>43</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0036R</itemimagefile1><order>38</order><imagenumber>44</imagenumber><orderlabel>1|A</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0037L</itemimagefile1><order>39</order><imagenumber>45</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0038R</itemimagefile1><order>40</order><imagenumber>46</imagenumber><orderlabel>2|A ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0039L</itemimagefile1><order>41</order><imagenumber>47</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0040R</itemimagefile1><order>42</order><imagenumber>48</imagenumber><orderlabel>3|A iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0041L</itemimagefile1><order>43</order><imagenumber>49</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0042R</itemimagefile1><order>44</order><imagenumber>50</imagenumber><orderlabel>4|A iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0043L</itemimagefile1><order>45</order><imagenumber>51</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0044R</itemimagefile1><order>46</order><imagenumber>52</imagenumber><orderlabel>5</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0045L</itemimagefile1><order>47</order><imagenumber>53</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0046R</itemimagefile1><order>48</order><imagenumber>54</imagenumber><orderlabel>6</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0047L</itemimagefile1><order>49</order><imagenumber>55</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0048R</itemimagefile1><order>50</order><imagenumber>56</imagenumber><orderlabel>7</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0049L</itemimagefile1><order>51</order><imagenumber>57</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0050R</itemimagefile1><order>52</order><imagenumber>58</imagenumber><orderlabel>8</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0051L</itemimagefile1><order>53</order><imagenumber>59</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0052R</itemimagefile1><order>54</order><imagenumber>60</imagenumber><orderlabel>9|B</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0053L</itemimagefile1><order>55</order><imagenumber>61</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0054R</itemimagefile1><order>56</order><imagenumber>62</imagenumber><orderlabel>10|B ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0055L</itemimagefile1><order>57</order><imagenumber>63</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0056R</itemimagefile1><order>58</order><imagenumber>64</imagenumber><orderlabel>11|E iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0057L</itemimagefile1><order>59</order><imagenumber>65</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0058R</itemimagefile1><order>60</order><imagenumber>66</imagenumber><orderlabel>12|A iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0059L</itemimagefile1><order>61</order><imagenumber>67</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0060R</itemimagefile1><order>62</order><imagenumber>68</imagenumber><orderlabel>13</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0061L</itemimagefile1><order>63</order><imagenumber>69</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0062R</itemimagefile1><order>64</order><imagenumber>70</imagenumber><orderlabel>14</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0063L</itemimagefile1><order>65</order><imagenumber>71</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0064R</itemimagefile1><order>66</order><imagenumber>72</imagenumber><orderlabel>15</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0065L</itemimagefile1><order>67</order><imagenumber>73</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0066R</itemimagefile1><order>68</order><imagenumber>74</imagenumber><orderlabel>16</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0067L</itemimagefile1><order>69</order><imagenumber>75</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0068R</itemimagefile1><order>70</order><imagenumber>76</imagenumber><orderlabel>17|C</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0069L</itemimagefile1><order>71</order><imagenumber>77</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0070R</itemimagefile1><order>72</order><imagenumber>78</imagenumber><orderlabel>18</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0071L</itemimagefile1><order>73</order><imagenumber>79</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0072R</itemimagefile1><order>74</order><imagenumber>80</imagenumber><orderlabel>19</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0073L</itemimagefile1><order>75</order><imagenumber>81</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0074R</itemimagefile1><order>76</order><imagenumber>82</imagenumber><orderlabel>20|C iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0075L</itemimagefile1><order>77</order><imagenumber>83</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0076R</itemimagefile1><order>78</order><imagenumber>84</imagenumber><orderlabel>21</orderlabel><colour>monochrome</colour><pagecontent number="1">Handwritten page/insert</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0077L</itemimagefile1><order>79</order><imagenumber>85</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0078R</itemimagefile1><order>80</order><imagenumber>86</imagenumber><orderlabel>22</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0079L</itemimagefile1><order>81</order><imagenumber>87</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0080R</itemimagefile1><order>82</order><imagenumber>88</imagenumber><orderlabel>23</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0081L</itemimagefile1><order>83</order><imagenumber>89</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0082R</itemimagefile1><order>84</order><imagenumber>90</imagenumber><orderlabel>24</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0083L</itemimagefile1><order>85</order><imagenumber>91</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0084R</itemimagefile1><order>86</order><imagenumber>92</imagenumber><orderlabel>25|D</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0085L</itemimagefile1><order>87</order><imagenumber>93</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0086R</itemimagefile1><order>88</order><imagenumber>94</imagenumber><orderlabel>26|D ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0087L</itemimagefile1><order>89</order><imagenumber>95</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0088R</itemimagefile1><order>90</order><imagenumber>96</imagenumber><orderlabel>27|D iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0089L</itemimagefile1><order>91</order><imagenumber>97</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0090R</itemimagefile1><order>92</order><imagenumber>98</imagenumber><orderlabel>28|D iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0091L</itemimagefile1><order>93</order><imagenumber>99</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0092R</itemimagefile1><order>94</order><imagenumber>100</imagenumber><orderlabel>29</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0093L</itemimagefile1><order>95</order><imagenumber>101</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0094R</itemimagefile1><order>96</order><imagenumber>102</imagenumber><orderlabel>21</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0095L</itemimagefile1><order>97</order><imagenumber>103</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0096R</itemimagefile1><order>98</order><imagenumber>104</imagenumber><orderlabel>31</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0097L</itemimagefile1><order>99</order><imagenumber>105</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0098R</itemimagefile1><order>100</order><imagenumber>106</imagenumber><orderlabel>32</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0099L</itemimagefile1><order>101</order><imagenumber>107</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0100R</itemimagefile1><order>102</order><imagenumber>108</imagenumber><orderlabel>33|E</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0101L</itemimagefile1><order>103</order><imagenumber>109</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0102R</itemimagefile1><order>104</order><imagenumber>110</imagenumber><orderlabel>34|E ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0103L</itemimagefile1><order>105</order><imagenumber>111</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0104R</itemimagefile1><order>106</order><imagenumber>112</imagenumber><orderlabel>35|E iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0105L</itemimagefile1><order>107</order><imagenumber>113</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0106R</itemimagefile1><order>108</order><imagenumber>114</imagenumber><orderlabel>36|E iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0107L</itemimagefile1><order>109</order><imagenumber>115</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0108R</itemimagefile1><order>110</order><imagenumber>116</imagenumber><orderlabel>37</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0109L</itemimagefile1><order>111</order><imagenumber>117</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0110R</itemimagefile1><order>112</order><imagenumber>118</imagenumber><orderlabel>38</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0111L</itemimagefile1><order>113</order><imagenumber>119</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0112R</itemimagefile1><order>114</order><imagenumber>120</imagenumber><orderlabel>39</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0113L</itemimagefile1><order>115</order><imagenumber>121</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0114R</itemimagefile1><order>116</order><imagenumber>122</imagenumber><orderlabel>40</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0115L</itemimagefile1><order>117</order><imagenumber>123</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0116R</itemimagefile1><order>118</order><imagenumber>124</imagenumber><orderlabel>41|F</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0117L</itemimagefile1><order>119</order><imagenumber>125</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0118R</itemimagefile1><order>120</order><imagenumber>126</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0119L</itemimagefile1><order>121</order><imagenumber>127</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0120R</itemimagefile1><order>122</order><imagenumber>128</imagenumber><orderlabel>43|F iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0121L</itemimagefile1><order>123</order><imagenumber>129</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0122R</itemimagefile1><order>124</order><imagenumber>130</imagenumber><orderlabel>44|F iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0123L</itemimagefile1><order>125</order><imagenumber>131</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0124R</itemimagefile1><order>126</order><imagenumber>132</imagenumber><orderlabel>45</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0125L</itemimagefile1><order>127</order><imagenumber>133</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0126R</itemimagefile1><order>128</order><imagenumber>134</imagenumber><orderlabel>46</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0127L</itemimagefile1><order>129</order><imagenumber>135</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0128R</itemimagefile1><order>130</order><imagenumber>136</imagenumber><orderlabel>47</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0129L</itemimagefile1><order>131</order><imagenumber>137</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0130R</itemimagefile1><order>132</order><imagenumber>138</imagenumber><orderlabel>48</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0131L</itemimagefile1><order>133</order><imagenumber>139</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0132R</itemimagefile1><order>134</order><imagenumber>140</imagenumber><orderlabel>49|G</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0133L</itemimagefile1><order>135</order><imagenumber>141</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0134R</itemimagefile1><order>136</order><imagenumber>142</imagenumber><orderlabel>50|G ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0135L</itemimagefile1><order>137</order><imagenumber>143</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0136R</itemimagefile1><order>138</order><imagenumber>144</imagenumber><orderlabel>51|G iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0137L</itemimagefile1><order>139</order><imagenumber>145</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0138R</itemimagefile1><order>140</order><imagenumber>146</imagenumber><orderlabel>52|G iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0139L</itemimagefile1><order>141</order><imagenumber>147</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0140R</itemimagefile1><order>142</order><imagenumber>148</imagenumber><orderlabel>53</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0141L</itemimagefile1><order>143</order><imagenumber>149</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0142R</itemimagefile1><order>144</order><imagenumber>150</imagenumber><orderlabel>45</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0143L</itemimagefile1><order>145</order><imagenumber>151</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0144R</itemimagefile1><order>146</order><imagenumber>152</imagenumber><orderlabel>55</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0145L</itemimagefile1><order>147</order><imagenumber>153</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0146R</itemimagefile1><order>148</order><imagenumber>154</imagenumber><orderlabel>56</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0147L</itemimagefile1><order>149</order><imagenumber>155</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0148R</itemimagefile1><order>150</order><imagenumber>156</imagenumber><orderlabel>57|H</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0149L</itemimagefile1><order>151</order><imagenumber>157</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0150R</itemimagefile1><order>152</order><imagenumber>158</imagenumber><orderlabel>58|H ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0151L</itemimagefile1><order>153</order><imagenumber>159</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0152R</itemimagefile1><order>154</order><imagenumber>160</imagenumber><orderlabel>59|H iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0153L</itemimagefile1><order>155</order><imagenumber>161</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0154R</itemimagefile1><order>156</order><imagenumber>162</imagenumber><orderlabel>60|H iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0155L</itemimagefile1><order>157</order><imagenumber>163</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0156R</itemimagefile1><order>158</order><imagenumber>164</imagenumber><orderlabel>61</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0157L</itemimagefile1><order>159</order><imagenumber>165</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0158R</itemimagefile1><order>160</order><imagenumber>166</imagenumber><orderlabel>62</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0159L</itemimagefile1><order>161</order><imagenumber>167</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0160R</itemimagefile1><order>162</order><imagenumber>168</imagenumber><orderlabel>63</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0161L</itemimagefile1><order>163</order><imagenumber>169</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0162R</itemimagefile1><order>164</order><imagenumber>170</imagenumber><orderlabel>64</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0163L</itemimagefile1><order>165</order><imagenumber>171</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0164R</itemimagefile1><order>166</order><imagenumber>172</imagenumber><orderlabel>65|I</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0165L</itemimagefile1><order>167</order><imagenumber>173</imagenumber><colour>monochrome</colour><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0166R</itemimagefile1><order>168</order><imagenumber>174</imagenumber><orderlabel>66|I ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0167L</itemimagefile1><order>169</order><imagenumber>175</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0168R</itemimagefile1><order>170</order><imagenumber>176</imagenumber><orderlabel>67|I iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0169L</itemimagefile1><order>171</order><imagenumber>177</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0170R</itemimagefile1><order>172</order><imagenumber>178</imagenumber><orderlabel>63|I iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0171L</itemimagefile1><order>173</order><imagenumber>179</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0172R</itemimagefile1><order>174</order><imagenumber>180</imagenumber><orderlabel>69</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0173L</itemimagefile1><order>175</order><imagenumber>181</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0174R</itemimagefile1><order>176</order><imagenumber>182</imagenumber><orderlabel>70</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0175L</itemimagefile1><order>177</order><imagenumber>183</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0176R</itemimagefile1><order>178</order><imagenumber>184</imagenumber><orderlabel>71</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0177L</itemimagefile1><order>179</order><imagenumber>185</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0178R</itemimagefile1><order>180</order><imagenumber>186</imagenumber><orderlabel>72</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0179L</itemimagefile1><order>181</order><imagenumber>187</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0180R</itemimagefile1><order>182</order><imagenumber>188</imagenumber><orderlabel>73|K</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0181L</itemimagefile1><order>183</order><imagenumber>189</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0182R</itemimagefile1><order>184</order><imagenumber>190</imagenumber><orderlabel>74|K ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0183L</itemimagefile1><order>185</order><imagenumber>191</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0184R</itemimagefile1><order>186</order><imagenumber>192</imagenumber><orderlabel>75|K iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0185L</itemimagefile1><order>187</order><imagenumber>193</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0186R</itemimagefile1><order>188</order><imagenumber>194</imagenumber><orderlabel>76|K iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0187L</itemimagefile1><order>189</order><imagenumber>195</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0188R</itemimagefile1><order>190</order><imagenumber>196</imagenumber><orderlabel>77</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0189L</itemimagefile1><order>191</order><imagenumber>197</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0190R</itemimagefile1><order>192</order><imagenumber>198</imagenumber><orderlabel>78</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0191L</itemimagefile1><order>193</order><imagenumber>199</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0192R</itemimagefile1><order>194</order><imagenumber>200</imagenumber><orderlabel>79</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0193L</itemimagefile1><order>195</order><imagenumber>201</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0194R</itemimagefile1><order>196</order><imagenumber>202</imagenumber><orderlabel>80</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0195L</itemimagefile1><order>197</order><imagenumber>203</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0196R</itemimagefile1><order>198</order><imagenumber>204</imagenumber><orderlabel>81|L</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0197L</itemimagefile1><order>199</order><imagenumber>205</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0198R</itemimagefile1><order>200</order><imagenumber>206</imagenumber><orderlabel>81|L ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0199L</itemimagefile1><order>201</order><imagenumber>207</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0200R</itemimagefile1><order>202</order><imagenumber>208</imagenumber><orderlabel>83|L iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0201L</itemimagefile1><order>203</order><imagenumber>209</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0202R</itemimagefile1><order>204</order><imagenumber>210</imagenumber><orderlabel>84|L iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0203L</itemimagefile1><order>205</order><imagenumber>211</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0204R</itemimagefile1><order>206</order><imagenumber>212</imagenumber><orderlabel>85</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0205L</itemimagefile1><order>207</order><imagenumber>213</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0206R</itemimagefile1><order>208</order><imagenumber>214</imagenumber><orderlabel>86</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0207L</itemimagefile1><order>209</order><imagenumber>215</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0208R</itemimagefile1><order>210</order><imagenumber>216</imagenumber><orderlabel>87</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0209L</itemimagefile1><order>211</order><imagenumber>217</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0210R</itemimagefile1><order>212</order><imagenumber>218</imagenumber><orderlabel>88</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0211L</itemimagefile1><order>213</order><imagenumber>219</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0212R</itemimagefile1><order>214</order><imagenumber>220</imagenumber><orderlabel>89|M</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0213L</itemimagefile1><order>215</order><imagenumber>221</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0214R</itemimagefile1><order>216</order><imagenumber>222</imagenumber><orderlabel>90|M ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0215L</itemimagefile1><order>217</order><imagenumber>223</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0216R</itemimagefile1><order>218</order><imagenumber>224</imagenumber><orderlabel>91|M iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0217L</itemimagefile1><order>219</order><imagenumber>225</imagenumber><colour>monochrome</colour><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0218R</itemimagefile1><order>220</order><imagenumber>226</imagenumber><orderlabel>92|M iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0219L</itemimagefile1><order>221</order><imagenumber>227</imagenumber><colour>monochrome</colour><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0220R</itemimagefile1><order>222</order><imagenumber>228</imagenumber><orderlabel>93</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0221L</itemimagefile1><order>223</order><imagenumber>229</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0222R</itemimagefile1><order>224</order><imagenumber>230</imagenumber><orderlabel>94</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0223L</itemimagefile1><order>225</order><imagenumber>231</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0224R</itemimagefile1><order>226</order><imagenumber>232</imagenumber><orderlabel>95</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0225L</itemimagefile1><order>227</order><imagenumber>233</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0226R</itemimagefile1><order>228</order><imagenumber>234</imagenumber><orderlabel>96</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0227L</itemimagefile1><order>229</order><imagenumber>235</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0228R</itemimagefile1><order>230</order><imagenumber>236</imagenumber><orderlabel>97|N</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0229L</itemimagefile1><order>231</order><imagenumber>237</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0230R</itemimagefile1><order>232</order><imagenumber>238</imagenumber><orderlabel>98|N ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0231L</itemimagefile1><order>233</order><imagenumber>239</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0232R</itemimagefile1><order>234</order><imagenumber>240</imagenumber><orderlabel>99|N iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0233L</itemimagefile1><order>235</order><imagenumber>241</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0234R</itemimagefile1><order>236</order><imagenumber>242</imagenumber><orderlabel>100|N iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0235L</itemimagefile1><order>237</order><imagenumber>243</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0236R</itemimagefile1><order>238</order><imagenumber>244</imagenumber><orderlabel>101</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0237L</itemimagefile1><order>239</order><imagenumber>245</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0238R</itemimagefile1><order>240</order><imagenumber>246</imagenumber><orderlabel>102</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0239L</itemimagefile1><order>241</order><imagenumber>247</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0240R</itemimagefile1><order>242</order><imagenumber>248</imagenumber><orderlabel>103</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0241L</itemimagefile1><order>243</order><imagenumber>249</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0242R</itemimagefile1><order>244</order><imagenumber>250</imagenumber><orderlabel>104</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0243L</itemimagefile1><order>245</order><imagenumber>251</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0244R</itemimagefile1><order>246</order><imagenumber>252</imagenumber><orderlabel>103|O</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0245L</itemimagefile1><order>247</order><imagenumber>253</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0246R</itemimagefile1><order>248</order><imagenumber>254</imagenumber><orderlabel>106|O ii</orderlabel><colour>monochrome</colour><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0247L</itemimagefile1><order>249</order><imagenumber>255</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0248R</itemimagefile1><order>250</order><imagenumber>256</imagenumber><orderlabel>107|O iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0249L</itemimagefile1><order>251</order><imagenumber>257</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0250R</itemimagefile1><order>252</order><imagenumber>258</imagenumber><orderlabel>108|O iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0251L</itemimagefile1><order>253</order><imagenumber>259</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0252R</itemimagefile1><order>254</order><imagenumber>260</imagenumber><orderlabel>111</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0253L</itemimagefile1><order>255</order><imagenumber>261</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0254R</itemimagefile1><order>256</order><imagenumber>262</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0255L</itemimagefile1><order>257</order><imagenumber>263</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0256R</itemimagefile1><order>258</order><imagenumber>264</imagenumber><orderlabel>111</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0257L</itemimagefile1><order>259</order><imagenumber>265</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0258R</itemimagefile1><order>260</order><imagenumber>266</imagenumber><orderlabel>112</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0259L</itemimagefile1><order>261</order><imagenumber>267</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0260R</itemimagefile1><order>262</order><imagenumber>268</imagenumber><orderlabel>113|P</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0261L</itemimagefile1><order>263</order><imagenumber>269</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0262R</itemimagefile1><order>264</order><imagenumber>270</imagenumber><orderlabel>114|P ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0263L</itemimagefile1><order>265</order><imagenumber>271</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0264R</itemimagefile1><order>266</order><imagenumber>272</imagenumber><orderlabel>115|P iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0265L</itemimagefile1><order>267</order><imagenumber>273</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0266R</itemimagefile1><order>268</order><imagenumber>274</imagenumber><orderlabel>116|P iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0267L</itemimagefile1><order>269</order><imagenumber>275</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0268R</itemimagefile1><order>270</order><imagenumber>276</imagenumber><orderlabel>117</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0269L</itemimagefile1><order>271</order><imagenumber>277</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0270R</itemimagefile1><order>272</order><imagenumber>278</imagenumber><orderlabel>118</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0271L</itemimagefile1><order>273</order><imagenumber>279</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0272R</itemimagefile1><order>274</order><imagenumber>280</imagenumber><orderlabel>119</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0273L</itemimagefile1><order>275</order><imagenumber>281</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0274R</itemimagefile1><order>276</order><imagenumber>282</imagenumber><orderlabel>120</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0275L</itemimagefile1><order>277</order><imagenumber>283</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0276R</itemimagefile1><order>278</order><imagenumber>284</imagenumber><orderlabel>121|Q</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0277L</itemimagefile1><order>279</order><imagenumber>285</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0278R</itemimagefile1><order>280</order><imagenumber>286</imagenumber><orderlabel>122|Q ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0279L</itemimagefile1><order>281</order><imagenumber>287</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0280R</itemimagefile1><order>282</order><imagenumber>288</imagenumber><orderlabel>123|Q iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0281L</itemimagefile1><order>283</order><imagenumber>289</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0282R</itemimagefile1><order>284</order><imagenumber>290</imagenumber><orderlabel>114|Q iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0283L</itemimagefile1><order>285</order><imagenumber>291</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0284R</itemimagefile1><order>286</order><imagenumber>292</imagenumber><orderlabel>125</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0285L</itemimagefile1><order>287</order><imagenumber>293</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0286R</itemimagefile1><order>288</order><imagenumber>294</imagenumber><orderlabel>126</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0287L</itemimagefile1><order>289</order><imagenumber>295</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0288R</itemimagefile1><order>290</order><imagenumber>296</imagenumber><orderlabel>127</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0289L</itemimagefile1><order>291</order><imagenumber>297</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0290R</itemimagefile1><order>292</order><imagenumber>298</imagenumber><orderlabel>128</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0291L</itemimagefile1><order>293</order><imagenumber>299</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0292R</itemimagefile1><order>294</order><imagenumber>300</imagenumber><orderlabel>129</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0293L</itemimagefile1><order>295</order><imagenumber>301</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0294R</itemimagefile1><order>296</order><imagenumber>302</imagenumber><orderlabel>130|R ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0295L</itemimagefile1><order>297</order><imagenumber>303</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0296R</itemimagefile1><order>298</order><imagenumber>304</imagenumber><orderlabel>131|R iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0297L</itemimagefile1><order>299</order><imagenumber>305</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0298R</itemimagefile1><order>300</order><imagenumber>306</imagenumber><orderlabel>112|R iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0299L</itemimagefile1><order>301</order><imagenumber>307</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0300R</itemimagefile1><order>302</order><imagenumber>308</imagenumber><orderlabel>133</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0301L</itemimagefile1><order>303</order><imagenumber>309</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0302R</itemimagefile1><order>304</order><imagenumber>310</imagenumber><orderlabel>134</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0303L</itemimagefile1><order>305</order><imagenumber>311</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0304R</itemimagefile1><order>306</order><imagenumber>312</imagenumber><orderlabel>135</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0305L</itemimagefile1><order>307</order><imagenumber>313</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0306R</itemimagefile1><order>308</order><imagenumber>314</imagenumber><orderlabel>136</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0307L</itemimagefile1><order>309</order><imagenumber>315</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0308R</itemimagefile1><order>310</order><imagenumber>316</imagenumber><orderlabel>137|S</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0309L</itemimagefile1><order>311</order><imagenumber>317</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0310R</itemimagefile1><order>312</order><imagenumber>318</imagenumber><orderlabel>138|S ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0311L</itemimagefile1><order>313</order><imagenumber>319</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0312R</itemimagefile1><order>314</order><imagenumber>320</imagenumber><orderlabel>139|S iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0313L</itemimagefile1><order>315</order><imagenumber>321</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0314R</itemimagefile1><order>316</order><imagenumber>322</imagenumber><orderlabel>140|S iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0315L</itemimagefile1><order>317</order><imagenumber>323</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0316R</itemimagefile1><order>318</order><imagenumber>324</imagenumber><orderlabel>141</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0317L</itemimagefile1><order>319</order><imagenumber>325</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0318R</itemimagefile1><order>320</order><imagenumber>326</imagenumber><orderlabel>142</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0319L</itemimagefile1><order>321</order><imagenumber>327</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0320R</itemimagefile1><order>322</order><imagenumber>328</imagenumber><orderlabel>143</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0321L</itemimagefile1><order>323</order><imagenumber>329</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0322R</itemimagefile1><order>324</order><imagenumber>330</imagenumber><orderlabel>144</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0323L</itemimagefile1><order>325</order><imagenumber>331</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0324R</itemimagefile1><order>326</order><imagenumber>332</imagenumber><orderlabel>145|r</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0325L</itemimagefile1><order>327</order><imagenumber>333</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0326R</itemimagefile1><order>328</order><imagenumber>334</imagenumber><orderlabel>146|r ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0327L</itemimagefile1><order>329</order><imagenumber>335</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0328R</itemimagefile1><order>330</order><imagenumber>336</imagenumber><orderlabel>147|T iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0329L</itemimagefile1><order>331</order><imagenumber>337</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0330R</itemimagefile1><order>332</order><imagenumber>338</imagenumber><orderlabel>148|T iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0331L</itemimagefile1><order>333</order><imagenumber>339</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0332R</itemimagefile1><order>334</order><imagenumber>340</imagenumber><orderlabel>149</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0333L</itemimagefile1><order>335</order><imagenumber>341</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0334R</itemimagefile1><order>336</order><imagenumber>342</imagenumber><orderlabel>150</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0335L</itemimagefile1><order>337</order><imagenumber>343</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0336R</itemimagefile1><order>338</order><imagenumber>344</imagenumber><orderlabel>151</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0337L</itemimagefile1><order>339</order><imagenumber>345</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0338R</itemimagefile1><order>340</order><imagenumber>346</imagenumber><orderlabel>152</orderlabel><colour>monochrome</colour><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0339L</itemimagefile1><order>341</order><imagenumber>347</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0340R</itemimagefile1><order>342</order><imagenumber>348</imagenumber><orderlabel>153|V</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0341L</itemimagefile1><order>343</order><imagenumber>349</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0342R</itemimagefile1><order>344</order><imagenumber>350</imagenumber><orderlabel>154|V ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0343L</itemimagefile1><order>345</order><imagenumber>351</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0344R</itemimagefile1><order>346</order><imagenumber>352</imagenumber><orderlabel>155|V iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0345L</itemimagefile1><order>347</order><imagenumber>353</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0346R</itemimagefile1><order>348</order><imagenumber>354</imagenumber><orderlabel>156|V iiii</orderlabel><colour>monochrome</colour><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0347L</itemimagefile1><order>349</order><imagenumber>355</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0348R</itemimagefile1><order>350</order><imagenumber>356</imagenumber><orderlabel>157</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0349L</itemimagefile1><order>351</order><imagenumber>357</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0350R</itemimagefile1><order>352</order><imagenumber>358</imagenumber><orderlabel>158</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0351L</itemimagefile1><order>353</order><imagenumber>359</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0352R</itemimagefile1><order>354</order><imagenumber>360</imagenumber><orderlabel>159</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0353L</itemimagefile1><order>355</order><imagenumber>361</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0354R</itemimagefile1><order>356</order><imagenumber>362</imagenumber><orderlabel>160</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0355L</itemimagefile1><order>357</order><imagenumber>363</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0356R</itemimagefile1><order>358</order><imagenumber>364</imagenumber><orderlabel>161|X</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0357L</itemimagefile1><order>359</order><imagenumber>365</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0358R</itemimagefile1><order>360</order><imagenumber>366</imagenumber><orderlabel>162|X ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0359L</itemimagefile1><order>361</order><imagenumber>367</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0360R</itemimagefile1><order>362</order><imagenumber>368</imagenumber><orderlabel>163|X iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0361L</itemimagefile1><order>363</order><imagenumber>369</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0362R</itemimagefile1><order>364</order><imagenumber>370</imagenumber><orderlabel>164|X iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0363L</itemimagefile1><order>365</order><imagenumber>371</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0364R</itemimagefile1><order>366</order><imagenumber>372</imagenumber><orderlabel>165</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0365L</itemimagefile1><order>367</order><imagenumber>373</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0366R</itemimagefile1><order>368</order><imagenumber>374</imagenumber><orderlabel>166</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0367L</itemimagefile1><order>369</order><imagenumber>375</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0368R</itemimagefile1><order>370</order><imagenumber>376</imagenumber><orderlabel>167</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0369L</itemimagefile1><order>371</order><imagenumber>377</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0370R</itemimagefile1><order>372</order><imagenumber>378</imagenumber><orderlabel>168</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0371L</itemimagefile1><order>373</order><imagenumber>379</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0372R</itemimagefile1><order>374</order><imagenumber>380</imagenumber><orderlabel>169|Y</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0373L</itemimagefile1><order>375</order><imagenumber>381</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0374R</itemimagefile1><order>376</order><imagenumber>382</imagenumber><orderlabel>170|Y ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0375L</itemimagefile1><order>377</order><imagenumber>383</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0376R</itemimagefile1><order>378</order><imagenumber>384</imagenumber><orderlabel>171|Y iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0377L</itemimagefile1><order>379</order><imagenumber>385</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0378R</itemimagefile1><order>380</order><imagenumber>386</imagenumber><orderlabel>172|Y iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0379L</itemimagefile1><order>381</order><imagenumber>387</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0380R</itemimagefile1><order>382</order><imagenumber>388</imagenumber><orderlabel>173</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0381L</itemimagefile1><order>383</order><imagenumber>389</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0382R</itemimagefile1><order>384</order><imagenumber>390</imagenumber><orderlabel>174</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0383L</itemimagefile1><order>385</order><imagenumber>391</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0384R</itemimagefile1><order>386</order><imagenumber>392</imagenumber><orderlabel>175</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0385L</itemimagefile1><order>387</order><imagenumber>393</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0386R</itemimagefile1><order>388</order><imagenumber>394</imagenumber><orderlabel>176</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0387L</itemimagefile1><order>389</order><imagenumber>395</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0388R</itemimagefile1><order>390</order><imagenumber>396</imagenumber><orderlabel>177|Z</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0389L</itemimagefile1><order>391</order><imagenumber>397</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0390R</itemimagefile1><order>392</order><imagenumber>398</imagenumber><orderlabel>178|Z ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0391L</itemimagefile1><order>393</order><imagenumber>399</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0392R</itemimagefile1><order>394</order><imagenumber>400</imagenumber><orderlabel>179|Z iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0393L</itemimagefile1><order>395</order><imagenumber>401</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0394R</itemimagefile1><order>396</order><imagenumber>402</imagenumber><orderlabel>180|Z iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0395L</itemimagefile1><order>397</order><imagenumber>403</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0396R</itemimagefile1><order>398</order><imagenumber>404</imagenumber><orderlabel>181</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0397L</itemimagefile1><order>399</order><imagenumber>405</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0398R</itemimagefile1><order>400</order><imagenumber>406</imagenumber><orderlabel>182</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0399L</itemimagefile1><order>401</order><imagenumber>407</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0400R</itemimagefile1><order>402</order><imagenumber>408</imagenumber><orderlabel>183</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0401L</itemimagefile1><order>403</order><imagenumber>409</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0402R</itemimagefile1><order>404</order><imagenumber>410</imagenumber><orderlabel>184</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0403L</itemimagefile1><order>405</order><imagenumber>411</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0404R</itemimagefile1><order>406</order><imagenumber>412</imagenumber><orderlabel>185|AA</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0405L</itemimagefile1><order>407</order><imagenumber>413</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0406R</itemimagefile1><order>408</order><imagenumber>414</imagenumber><orderlabel>186|AA ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0407L</itemimagefile1><order>409</order><imagenumber>415</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0408R</itemimagefile1><order>410</order><imagenumber>416</imagenumber><orderlabel>187|AA iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0409L</itemimagefile1><order>411</order><imagenumber>417</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0410R</itemimagefile1><order>412</order><imagenumber>418</imagenumber><orderlabel>188|AA iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0411L</itemimagefile1><order>413</order><imagenumber>419</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0412R</itemimagefile1><order>414</order><imagenumber>420</imagenumber><orderlabel>189</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0413L</itemimagefile1><order>415</order><imagenumber>421</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0414R</itemimagefile1><order>416</order><imagenumber>422</imagenumber><orderlabel>190</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0415L</itemimagefile1><order>417</order><imagenumber>423</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0416R</itemimagefile1><order>418</order><imagenumber>424</imagenumber><orderlabel>191</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0417L</itemimagefile1><order>419</order><imagenumber>425</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0418R</itemimagefile1><order>420</order><imagenumber>426</imagenumber><orderlabel>192</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0419L</itemimagefile1><order>421</order><imagenumber>427</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0420R</itemimagefile1><order>422</order><imagenumber>428</imagenumber><orderlabel>193|BB</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0421L</itemimagefile1><order>423</order><imagenumber>429</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0422R</itemimagefile1><order>424</order><imagenumber>430</imagenumber><orderlabel>194|BB ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0423L</itemimagefile1><order>425</order><imagenumber>431</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0424R</itemimagefile1><order>426</order><imagenumber>432</imagenumber><orderlabel>195|BB iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0425L</itemimagefile1><order>427</order><imagenumber>433</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0426R</itemimagefile1><order>428</order><imagenumber>434</imagenumber><orderlabel>196|BB iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0427L</itemimagefile1><order>429</order><imagenumber>435</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0428R</itemimagefile1><order>430</order><imagenumber>436</imagenumber><orderlabel>197</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0429L</itemimagefile1><order>431</order><imagenumber>437</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0430R</itemimagefile1><order>432</order><imagenumber>438</imagenumber><orderlabel>198</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0431L</itemimagefile1><order>433</order><imagenumber>439</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0432R</itemimagefile1><order>434</order><imagenumber>440</imagenumber><orderlabel>199</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0433L</itemimagefile1><order>435</order><imagenumber>441</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0434R</itemimagefile1><order>436</order><imagenumber>442</imagenumber><orderlabel>200</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0435L</itemimagefile1><order>437</order><imagenumber>443</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0436R</itemimagefile1><order>438</order><imagenumber>444</imagenumber><orderlabel>201|CC</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0437L</itemimagefile1><order>439</order><imagenumber>445</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0438R</itemimagefile1><order>440</order><imagenumber>446</imagenumber><orderlabel>202|CC ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0439L</itemimagefile1><order>441</order><imagenumber>447</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0440R</itemimagefile1><order>442</order><imagenumber>448</imagenumber><orderlabel>203|CC iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0441L</itemimagefile1><order>443</order><imagenumber>449</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0442R</itemimagefile1><order>444</order><imagenumber>450</imagenumber><orderlabel>204|CC iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>Chapter page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0443L</itemimagefile1><order>445</order><imagenumber>451</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0444R</itemimagefile1><order>446</order><imagenumber>452</imagenumber><orderlabel>205</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0445L</itemimagefile1><order>447</order><imagenumber>453</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0446R</itemimagefile1><order>448</order><imagenumber>454</imagenumber><orderlabel>206</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0447L</itemimagefile1><order>449</order><imagenumber>455</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0448R</itemimagefile1><order>450</order><imagenumber>456</imagenumber><orderlabel>207</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0449L</itemimagefile1><order>451</order><imagenumber>457</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0450R</itemimagefile1><order>452</order><imagenumber>458</imagenumber><orderlabel>208</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0451L</itemimagefile1><order>453</order><imagenumber>459</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0452R</itemimagefile1><order>454</order><imagenumber>460</imagenumber><orderlabel>209|DD</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0453L</itemimagefile1><order>455</order><imagenumber>461</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0454R</itemimagefile1><order>456</order><imagenumber>462</imagenumber><orderlabel>210|DD ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0455L</itemimagefile1><order>457</order><imagenumber>463</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0456R</itemimagefile1><order>458</order><imagenumber>464</imagenumber><orderlabel>211|DD iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0457L</itemimagefile1><order>459</order><imagenumber>465</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0458R</itemimagefile1><order>460</order><imagenumber>466</imagenumber><orderlabel>212|DD iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0459L</itemimagefile1><order>461</order><imagenumber>467</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0460R</itemimagefile1><order>462</order><imagenumber>468</imagenumber><orderlabel>213</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0461L</itemimagefile1><order>463</order><imagenumber>469</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0462R</itemimagefile1><order>464</order><imagenumber>470</imagenumber><orderlabel>214</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0463L</itemimagefile1><order>465</order><imagenumber>471</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0464R</itemimagefile1><order>466</order><imagenumber>472</imagenumber><orderlabel>215</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0465L</itemimagefile1><order>467</order><imagenumber>473</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0466R</itemimagefile1><order>468</order><imagenumber>474</imagenumber><orderlabel>216</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0467L</itemimagefile1><order>469</order><imagenumber>475</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0468R</itemimagefile1><order>470</order><imagenumber>476</imagenumber><orderlabel>217|EE</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0469L</itemimagefile1><order>471</order><imagenumber>477</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0470R</itemimagefile1><order>472</order><imagenumber>478</imagenumber><orderlabel>219|EE ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0471L</itemimagefile1><order>473</order><imagenumber>479</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0472R</itemimagefile1><order>474</order><imagenumber>480</imagenumber><orderlabel>219|EE iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0473L</itemimagefile1><order>475</order><imagenumber>481</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0474R</itemimagefile1><order>476</order><imagenumber>482</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0475L</itemimagefile1><order>477</order><imagenumber>483</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0476R</itemimagefile1><order>478</order><imagenumber>484</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0477L</itemimagefile1><order>479</order><imagenumber>485</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0478R</itemimagefile1><order>480</order><imagenumber>486</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0479L</itemimagefile1><order>481</order><imagenumber>487</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0480R</itemimagefile1><order>482</order><imagenumber>488</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0481L</itemimagefile1><order>483</order><imagenumber>489</imagenumber><colour>monochrome</colour><pagetype>Contents page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0482R</itemimagefile1><order>484</order><imagenumber>490</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0483L</itemimagefile1><order>485</order><imagenumber>491</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0484R</itemimagefile1><order>486</order><imagenumber>492</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0485L</itemimagefile1><order>487</order><imagenumber>493</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-001-0486R</itemimagefile1><order>488</order><imagenumber>494</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0003L</itemimagefile1><order>489</order><imagenumber>495</imagenumber><colour>monochrome</colour><pagetype>Back endpaper</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0015063-000-0004R</itemimagefile1><order>490</order><imagenumber>496</imagenumber><colour>monochrome</colour><pagetype>Back endpaper</pagetype>
+</itemimage>
+</itemimagefiles>
+
+<rec_search>
+<pqid>uni-ucl-jud-0015063-001</pqid>
+<title>Historia d&#39;Egesippo tra i christiani scrittori antichissimo de le valorose iprese fatte da giudei ne l&#39;assedio di Gierusaleme : e come fu abbattuta quella citta, e molte altre del paese : breve somma del medesimo di quanto &#232; compresso ne l&#39;opera. Tradotta di latino in italiano per Pietro Lauro Modonese.</title>
+<author_main>
+	<author_name>Pietro Lauro Modonese</author_name>
+	<author_corrected>Josephus, Flavius.</author_corrected>
+	<author_uninverted>Flavius. Josephus</author_uninverted>
+</author_main>
+<startdate>15440101</startdate>
+<enddate>15441231</enddate>
+<displaydate>Ne l'anno di nostra salute MDXLIIII [1544].</displaydate>
+<imprint>Venetia: Summo Pontefice Paulo III ,M.D.XLIIIII. [1544]</imprint>
+<shelfmark>STRONG ROOM MOCATTA 1544 J6 (2)</shelfmark>
+<publisher_printer>Supreme Pontiff Paul III</publisher_printer>
+<place_of_publication>Venice</place_of_publication>
+<country_of_publication>Italy</country_of_publication>
+<pagination>[16], 219. [5] leaves of plates ; 16 cm.</pagination>
+<source_library>University College London</source_library>
+<source_collection>Special Collections, UCL Library</source_collection>
+<language>Italian</language>
+<illustrations>
+	<illustration>Handwritten page/insert</illustration>
+	<illustration>Printed marginalia</illustration>
+	<illustration>Printers Mark – title page</illustration>
+	<illustration>Manuscript (i.e. handwritten) marginalia and other annotation</illustration>
+	<illustration>Illuminated lettering</illustration>
+</illustrations>
+
+</rec_search>
+
+
+</rec>

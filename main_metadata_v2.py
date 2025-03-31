@@ -62,7 +62,14 @@ input_folder = Path(f"metadata_input")
 # input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") # resupply version 2 2024-11-28
 # input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv") # resupply version 2 2024-11-28
 # input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241108.csv") # resupply version 2 2024-12-06
-input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # 2024-12-06
+# input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # 2024-12-06
+# input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # resupply version 2 2025-01-06
+# input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv") # resupply version 3 2025-03-27
+input_file = Path(f"COMPLETED - Illustration METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # resupply version 3 2025-03-27
+
+# Judaica Batch 2
+# input_file = Path(f"Illustration METADATA - Proquest UCL - Judaica Batch 2 (C260_0003) - Benchmark.csv") # 2025-03-19
+
 
 
 input_path = Path(f"{input_folder}/{input_file}")
@@ -76,15 +83,22 @@ input_path = Path(f"{input_folder}/{input_file}")
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # 2024-10-11
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv")
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241108.csv")
-# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv")  # resupply version 2 2024-11-25
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241011.csv") # resupply version 2 2024-11-25
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20240927.csv") # resupply version 2 2024-11-28
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv") # resupply version 2 2024-11-28
 # re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241108.csv") # resupply version 2 2024-12-06
-re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # 2024-12-06
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # 2024-12-06
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # resupply version 2 2025-01-06
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241025.csv") # resupply version 3 2025-03-27
+re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 1 (C260_0003) - 20241206.csv") # resupply version 3 2025-03-27
+
+# Judaica Batch 2
+# re_search_input_file = Path(f"_rec search_ METADATA - Proquest UCL - Judaica Batch 2 (C260_0003) - Benchmark.csv") # 2025-03-19
+
 
 re_search_input_path = Path(f"{input_folder}/{re_search_input_file}")
 
-output_path = Path(f"metadata_output/judaica_xml_20241206_{get_file_timestamp()}")
+output_path = Path(f"metadata_output/judaica_xml_resupply_20241206_{get_file_timestamp()}")
 
 if os.path.exists(input_path) != True:
     print(f"ERROR: {input_path} file does not exits")

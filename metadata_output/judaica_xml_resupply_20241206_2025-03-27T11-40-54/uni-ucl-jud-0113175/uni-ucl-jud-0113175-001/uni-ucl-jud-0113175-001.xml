@@ -1,0 +1,103 @@
+<rec>
+
+<itemid>uni-ucl-jud-0113175-001</itemid>
+
+<subscription>
+	<unit>unpublished</unit>
+	<country>uni</country>
+</subscription>
+
+<itemimagefiles>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-000-0000B</itemimagefile1><order>0</order><imagenumber>1</imagenumber><colour>colour</colour><pagetype>Back board</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-000-0000F</itemimagefile1><order>0</order><imagenumber>2</imagenumber><colour>colour</colour><pagetype>Front board</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-000-0000U</itemimagefile1><order>1</order><imagenumber>3</imagenumber><colour>colour</colour><pagetype>Front endpaper</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0001R</itemimagefile1><order>2</order><imagenumber>4</imagenumber><colour>monochrome</colour><pagecontent number="1">Illustration</pagecontent><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagecontent number="1">Rubricated text</pagecontent><pagetype>Title page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0002L</itemimagefile1><order>3</order><imagenumber>5</imagenumber><colour>monochrome</colour><pagecontent number="1">Illuminated lettering</pagecontent><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0003R</itemimagefile1><order>4</order><imagenumber>6</imagenumber><orderlabel>XLIX|I ii</orderlabel><colour>monochrome</colour><pagecontent number="1">Illustration</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0004L</itemimagefile1><order>5</order><imagenumber>7</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0005R</itemimagefile1><order>6</order><imagenumber>8</imagenumber><orderlabel>L|I iii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0006L</itemimagefile1><order>7</order><imagenumber>9</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0007R</itemimagefile1><order>8</order><imagenumber>10</imagenumber><orderlabel>LI|I iiii</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0008L</itemimagefile1><order>9</order><imagenumber>11</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0009R</itemimagefile1><order>10</order><imagenumber>12</imagenumber><orderlabel>LII</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0010L</itemimagefile1><order>11</order><imagenumber>13</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0011R</itemimagefile1><order>12</order><imagenumber>14</imagenumber><orderlabel>LIII</orderlabel><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0012L</itemimagefile1><order>13</order><imagenumber>15</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0013R</itemimagefile1><order>14</order><imagenumber>16</imagenumber><orderlabel>XCI</orderlabel><colour>monochrome</colour><pagecontent number="1">Illustration</pagecontent><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0014L</itemimagefile1><order>15</order><imagenumber>17</imagenumber><colour>monochrome</colour><pagecontent number="1">Printed marginalia</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0015R</itemimagefile1><order>16</order><imagenumber>18</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-001-0016L</itemimagefile1><order>17</order><imagenumber>19</imagenumber><colour>monochrome</colour><pagecontent number="1">Illustration</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0113175-000-0000V</itemimagefile1><order>18</order><imagenumber>20</imagenumber><colour>colour</colour><pagetype>Back endpaper</pagetype>
+</itemimage>
+</itemimagefiles>
+
+<rec_search>
+<pqid>uni-ucl-jud-0113175-001</pqid>
+<title>Der ne&#252; Layenspiegel vo rechtm&#228;ssigen ordnungen in Burgerlichen und peinlichen Regimenten : mit Addition. Auch der G&#252;ldin Bulla. K&#252;nigklich Reformation landtfriden. Auch Bew&#228;rung gemainer recht und anderm Antzaigen.</title>
+<author_main>
+	<author_name>Vdalrici Tengrler</author_name>
+	<author_corrected>Tengler, Ulrich.</author_corrected>
+	<author_uninverted>Ulrich, Tengler.</author_uninverted>
+</author_main>
+<startdate>15180101</startdate>
+<enddate>15181231</enddate>
+<displaydate>Anno MCCCCCxviij [1518].</displaydate>
+<imprint>Strasburg:  MCCCCCXVIII. [1518]</imprint>
+<shelfmark>STRONG ROOM MOCATTA QUARTO 1518 T2</shelfmark>
+<place_of_publication>Strasbourg</place_of_publication>
+<country_of_publication>France</country_of_publication>
+<pagination>[16] p. : ill. (woodcuts) ; 31 cm.</pagination>
+<source_library>University College London</source_library>
+<source_collection>Special Collections, UCL Library</source_collection>
+<language>German</language>
+<illustrations>
+	<illustration>Illuminated lettering</illustration>
+	<illustration>Manuscript (i.e. handwritten) marginalia and other annotation</illustration>
+	<illustration>Printed marginalia</illustration>
+	<illustration>Rubricated text</illustration>
+	<illustration>Illustration</illustration>
+</illustrations>
+
+</rec_search>
+
+
+</rec>

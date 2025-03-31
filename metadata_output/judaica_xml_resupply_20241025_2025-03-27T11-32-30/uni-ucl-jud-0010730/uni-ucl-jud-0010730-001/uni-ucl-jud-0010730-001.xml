@@ -1,0 +1,234 @@
+<rec>
+
+<itemid>uni-ucl-jud-0010730-001</itemid>
+
+<subscription>
+	<unit>unpublished</unit>
+	<country>uni</country>
+</subscription>
+
+<itemimagefiles>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0000B</itemimagefile1><order>0</order><imagenumber>1</imagenumber><colour>colour</colour><pagetype>Back board</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0000F</itemimagefile1><order>0</order><imagenumber>2</imagenumber><colour>colour</colour><pagetype>Front board</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0000S</itemimagefile1><order>0</order><imagenumber>3</imagenumber><colour>colour</colour><pagetype>Spine</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0000X</itemimagefile1><order>0</order><imagenumber>4</imagenumber><colour>colour</colour><pagetype>Head edge</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0000Y</itemimagefile1><order>0</order><imagenumber>5</imagenumber><colour>colour</colour><pagetype>Tail edge</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0000Z</itemimagefile1><order>0</order><imagenumber>6</imagenumber><colour>colour</colour><pagetype>Foredge</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0001L</itemimagefile1><order>1</order><imagenumber>7</imagenumber><colour>colour</colour><pagetype>Front endpaper</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0002R</itemimagefile1><order>2</order><imagenumber>8</imagenumber><colour>colour</colour><pagetype>Front endpaper</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0001L</itemimagefile1><order>3</order><imagenumber>9</imagenumber><colour>monochrome</colour><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0002R</itemimagefile1><order>4</order><imagenumber>10</imagenumber><colour>monochrome</colour><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0003L</itemimagefile1><order>5</order><imagenumber>11</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0004R</itemimagefile1><order>6</order><imagenumber>12</imagenumber><colour>monochrome</colour><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagetype>Title page</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0005L</itemimagefile1><order>7</order><imagenumber>13</imagenumber><colour>monochrome</colour><pagecontent number="1">Manuscript (i.e. handwritten) marginalia and other annotation</pagecontent><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0006R</itemimagefile1><order>8</order><imagenumber>14</imagenumber><orderlabel>a ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0007L</itemimagefile1><order>9</order><imagenumber>15</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0008R</itemimagefile1><order>10</order><imagenumber>16</imagenumber><orderlabel>a iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0009L</itemimagefile1><order>11</order><imagenumber>17</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0010R</itemimagefile1><order>12</order><imagenumber>18</imagenumber><orderlabel>a iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0011L</itemimagefile1><order>13</order><imagenumber>19</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0012R</itemimagefile1><order>14</order><imagenumber>20</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0013L</itemimagefile1><order>15</order><imagenumber>21</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0014R</itemimagefile1><order>16</order><imagenumber>22</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0015L</itemimagefile1><order>17</order><imagenumber>23</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0016R</itemimagefile1><order>18</order><imagenumber>24</imagenumber><orderlabel>b i</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0017L</itemimagefile1><order>19</order><imagenumber>25</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0018R</itemimagefile1><order>20</order><imagenumber>26</imagenumber><orderlabel>b ii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0019L</itemimagefile1><order>21</order><imagenumber>27</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0020R</itemimagefile1><order>22</order><imagenumber>28</imagenumber><orderlabel>b iii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0021L</itemimagefile1><order>23</order><imagenumber>29</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0022R</itemimagefile1><order>24</order><imagenumber>30</imagenumber><orderlabel>b iiii</orderlabel><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0023L</itemimagefile1><order>25</order><imagenumber>31</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0024R</itemimagefile1><order>26</order><imagenumber>32</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0025L</itemimagefile1><order>27</order><imagenumber>33</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0026R</itemimagefile1><order>28</order><imagenumber>34</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0027L</itemimagefile1><order>29</order><imagenumber>35</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0028R</itemimagefile1><order>30</order><imagenumber>36</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0029L</itemimagefile1><order>31</order><imagenumber>37</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0030R</itemimagefile1><order>32</order><imagenumber>38</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0031L</itemimagefile1><order>33</order><imagenumber>39</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0032R</itemimagefile1><order>34</order><imagenumber>40</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0033L</itemimagefile1><order>35</order><imagenumber>41</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0034R</itemimagefile1><order>36</order><imagenumber>42</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0035L</itemimagefile1><order>37</order><imagenumber>43</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0036R</itemimagefile1><order>38</order><imagenumber>44</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0037L</itemimagefile1><order>39</order><imagenumber>45</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0038R</itemimagefile1><order>40</order><imagenumber>46</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0039L</itemimagefile1><order>41</order><imagenumber>47</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0040R</itemimagefile1><order>42</order><imagenumber>48</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0041L</itemimagefile1><order>43</order><imagenumber>49</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0042R</itemimagefile1><order>44</order><imagenumber>50</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0043L</itemimagefile1><order>45</order><imagenumber>51</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0044R</itemimagefile1><order>46</order><imagenumber>52</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0045L</itemimagefile1><order>47</order><imagenumber>53</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0046R</itemimagefile1><order>48</order><imagenumber>54</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0047L</itemimagefile1><order>49</order><imagenumber>55</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0048R</itemimagefile1><order>50</order><imagenumber>56</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0049L</itemimagefile1><order>51</order><imagenumber>57</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0050R</itemimagefile1><order>52</order><imagenumber>58</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0051L</itemimagefile1><order>53</order><imagenumber>59</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0052R</itemimagefile1><order>54</order><imagenumber>60</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0053L</itemimagefile1><order>55</order><imagenumber>61</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0054R</itemimagefile1><order>56</order><imagenumber>62</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0055L</itemimagefile1><order>57</order><imagenumber>63</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-001-0056R</itemimagefile1><order>58</order><imagenumber>64</imagenumber><colour>monochrome</colour><pagetype>None</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0003L</itemimagefile1><order>59</order><imagenumber>65</imagenumber><colour>colour</colour><pagetype>Back endpaper</pagetype>
+</itemimage>
+<itemimage>
+	<itemimagefile1>uni-ucl-jud-0010730-000-0004R</itemimagefile1><order>60</order><imagenumber>66</imagenumber><colour>colour</colour><pagetype>Back endpaper</pagetype>
+</itemimage>
+</itemimagefiles>
+
+<rec_search>
+<pqid>uni-ucl-jud-0010730-001</pqid>
+<title>Pharetra fidei Catholice, siue, Ydonea disputatio inter Christianos et Iudeos : in qua perpulchra tanguntur media et rationes quibus quiuis Christifidelis tam ex prophetis suis proprijs q[uam] ex nostris eorum erroribus faciliter poterit obuiare.</title>
+<author_main>
+	<author_name>Subprior, Theobaldus.</author_name>
+	<author_corrected>Theobaldus, subprior.</author_corrected>
+	<author_uninverted>Subprior, Theobaldus.</author_uninverted>
+</author_main>
+<startdate>14940101</startdate>
+<enddate>14941231</enddate>
+<displaydate>1494-1500</displaydate>
+<shelfmark>INCUNABULA 1 k</shelfmark>
+<pagination>[24] p. (the last leaf blank) ; 21 cm.</pagination>
+<source_library>University College London</source_library>
+<source_collection>Special Collections, UCL Library</source_collection>
+<language>Latin</language>
+<illustrations>
+	<illustration>Manuscript (i.e. handwritten) marginalia and other annotation</illustration>
+</illustrations>
+
+</rec_search>
+
+
+</rec>
